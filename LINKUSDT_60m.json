@@ -1,0 +1,29 @@
+{
+  "asset": "LINKUSDT",
+  "timeframe": "60m",
+  "timestamp": "2026-01-04T22:59:45.757508",
+  "data_points": 52671,
+  "strategy_union": [
+    {
+      "bucket_size": 2,
+      "seq_len": 5,
+      "model_type": "Absolute",
+      "accuracy": 95.45454545454545,
+      "trades": 22
+    },
+    {
+      "bucket_size": 2,
+      "seq_len": 6,
+      "model_type": "Absolute",
+      "accuracy": 91.48936170212765,
+      "trades": 47
+    },
+    {
+      "bucket_size": 1,
+      "seq_len": 5,
+      "model_type": "Absolute",
+      "accuracy": 71.71717171717171,
+      "trades": 99
+    }
+  ]
+}

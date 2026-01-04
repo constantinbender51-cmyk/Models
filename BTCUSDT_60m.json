@@ -1,0 +1,29 @@
+{
+  "asset": "BTCUSDT",
+  "timeframe": "60m",
+  "timestamp": "2026-01-04T22:36:30.656061",
+  "data_points": 52671,
+  "strategy_union": [
+    {
+      "bucket_size": 235,
+      "seq_len": 3,
+      "model_type": "Derivative",
+      "accuracy": 54.88342785129174,
+      "trades": 3174
+    },
+    {
+      "bucket_size": 329,
+      "seq_len": 3,
+      "model_type": "Derivative",
+      "accuracy": 53.58126721763086,
+      "trades": 1452
+    },
+    {
+      "bucket_size": 282,
+      "seq_len": 3,
+      "model_type": "Derivative",
+      "accuracy": 53.45029239766082,
+      "trades": 2565
+    }
+  ]
+}

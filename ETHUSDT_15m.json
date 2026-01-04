@@ -1,0 +1,29 @@
+{
+  "asset": "ETHUSDT",
+  "timeframe": "15m",
+  "timestamp": "2026-01-04T22:39:06.180530",
+  "data_points": 210658,
+  "strategy_union": [
+    {
+      "bucket_size": 14,
+      "seq_len": 3,
+      "model_type": "Combined",
+      "accuracy": 58.758620689655174,
+      "trades": 1450
+    },
+    {
+      "bucket_size": 18,
+      "seq_len": 3,
+      "model_type": "Derivative",
+      "accuracy": 56.860465116279066,
+      "trades": 860
+    },
+    {
+      "bucket_size": 20,
+      "seq_len": 4,
+      "model_type": "Derivative",
+      "accuracy": 56.548672566371685,
+      "trades": 1130
+    }
+  ]
+}

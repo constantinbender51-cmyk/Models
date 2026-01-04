@@ -1,0 +1,29 @@
+{
+  "asset": "XRPUSDT",
+  "timeframe": "240m",
+  "timestamp": "2026-01-04T22:47:24.106807",
+  "data_points": 13175,
+  "strategy_union": [
+    {
+      "bucket_size": 3,
+      "seq_len": 3,
+      "model_type": "Absolute",
+      "accuracy": 100.0,
+      "trades": 26
+    },
+    {
+      "bucket_size": 3,
+      "seq_len": 4,
+      "model_type": "Absolute",
+      "accuracy": 100.0,
+      "trades": 26
+    },
+    {
+      "bucket_size": 3,
+      "seq_len": 5,
+      "model_type": "Absolute",
+      "accuracy": 100.0,
+      "trades": 26
+    }
+  ]
+}

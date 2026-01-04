@@ -1,0 +1,29 @@
+{
+  "asset": "SOLUSDT",
+  "timeframe": "30m",
+  "timestamp": "2026-01-04T22:44:37.312922",
+  "data_points": 94645,
+  "strategy_union": [
+    {
+      "bucket_size": 7,
+      "seq_len": 4,
+      "model_type": "Derivative",
+      "accuracy": 84.61538461538461,
+      "trades": 26
+    },
+    {
+      "bucket_size": 9,
+      "seq_len": 5,
+      "model_type": "Derivative",
+      "accuracy": 80.55555555555556,
+      "trades": 36
+    },
+    {
+      "bucket_size": 8,
+      "seq_len": 6,
+      "model_type": "Combined",
+      "accuracy": 77.04918032786885,
+      "trades": 61
+    }
+  ]
+}

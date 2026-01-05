@@ -1,55 +1,80 @@
-[2026-01-05 08:03:54 UTC] --- STARTING STRESS TEST ---
-[2026-01-05 08:03:54 UTC] Fetching Instrument Specifications...
-[2026-01-05 08:03:55 UTC] Success: Loaded specs for 338 instruments.
-[2026-01-05 08:03:55 UTC] 1. Testing Account API & Fetching Equity...
-[2026-01-05 08:03:55 UTC] SUCCESS: Margin Equity retrieved: $441.10
-[2026-01-05 08:03:55 UTC] 2. Fetching Open Positions & Orders...
-[2026-01-05 08:03:55 UTC] Open Positions Response: 1 positions found.
-[2026-01-05 08:03:55 UTC] Open Orders Response: 4 orders found.
-[2026-01-05 08:03:55 UTC] 3. Testing Order Execution (Place & Cancel) for all symbols...
-[2026-01-05 08:03:56 UTC] Calculated Test Unit Size: $88.22
-[2026-01-05 08:03:56 UTC] --- Testing ff_xbtusd_260327 ---
-[2026-01-05 08:03:56 UTC]    Debug: ff_xbtusd_260327 LotSize: 1.0, Raw: 0.0009, Rounded: 0
-[2026-01-05 08:03:56 UTC] SKIPPING: Size 0 is too small/zero.
-[2026-01-05 08:03:56 UTC] --- Testing pf_ethusd ---
-[2026-01-05 08:03:56 UTC]    Debug: pf_ethusd LotSize: 1.0, Raw: 0.0279, Rounded: 0
-[2026-01-05 08:03:56 UTC] SKIPPING: Size 0 is too small/zero.
-[2026-01-05 08:03:56 UTC] --- Testing pf_solusd ---
-[2026-01-05 08:03:57 UTC]    Debug: pf_solusd LotSize: 1.0, Raw: 0.6514, Rounded: 1
-[2026-01-05 08:03:57 UTC] Placing LIMIT BUY 1 @ 67.71 (Mark: 135.42738185313)
-[2026-01-05 08:03:57 UTC] API Response: Order Sent. ID: a0c3266c-c50c-4558-bf28-a7c355e8a7e4 | Status: placed
-[2026-01-05 08:03:57 UTC] ERROR on pf_solusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:03:57.94Z"}
-[2026-01-05 08:03:58 UTC] --- Testing pf_bnbusd ---
-[2026-01-05 08:03:58 UTC]    Debug: pf_bnbusd LotSize: 1.0, Raw: 0.0981, Rounded: 0
-[2026-01-05 08:03:58 UTC] SKIPPING: Size 0 is too small/zero.
-[2026-01-05 08:03:58 UTC] --- Testing pf_xrpusd ---
-[2026-01-05 08:03:58 UTC]    Debug: pf_xrpusd LotSize: 1.0, Raw: 41.3878, Rounded: 41
-[2026-01-05 08:03:58 UTC] Placing LIMIT BUY 41 @ 1.07 (Mark: 2.13152532242)
-[2026-01-05 08:03:58 UTC] API Response: Order Sent. ID: a0c3266f-1816-4411-b4cb-97e5e5256bd7 | Status: placed
-[2026-01-05 08:03:59 UTC] ERROR on pf_xrpusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:03:59.476Z"}
-[2026-01-05 08:03:59 UTC] --- Testing pf_adausd ---
-[2026-01-05 08:03:59 UTC]    Debug: pf_adausd LotSize: 1.0, Raw: 219.8262, Rounded: 220
-[2026-01-05 08:03:59 UTC] Placing LIMIT BUY 220 @ 0.2 (Mark: 0.40131306956)
-[2026-01-05 08:04:00 UTC] API Response: Order Sent. ID: a0c32670-e382-4d18-b7c4-c43fa474d242 | Status: placed
-[2026-01-05 08:04:00 UTC] ERROR on pf_adausd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:04:00.642Z"}
-[2026-01-05 08:04:00 UTC] --- Testing pf_dogeusd ---
-[2026-01-05 08:04:00 UTC]    Debug: pf_dogeusd LotSize: 1.0, Raw: 588.8985, Rounded: 589
-[2026-01-05 08:04:01 UTC] Placing LIMIT BUY 589 @ 0.07 (Mark: 0.14980363214)
-[2026-01-05 08:04:01 UTC] API Response: Order Sent. ID: a0c32672-a6bf-43ed-9397-479bbabc4022 | Status: placed
-[2026-01-05 08:04:01 UTC] ERROR on pf_dogeusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:04:01.826Z"}
-[2026-01-05 08:04:01 UTC] --- Testing pf_avaxusd ---
-[2026-01-05 08:04:02 UTC]    Debug: pf_avaxusd LotSize: 1.0, Raw: 6.1742, Rounded: 6
-[2026-01-05 08:04:02 UTC] Placing LIMIT BUY 6 @ 7.14 (Mark: 14.28835556838)
-[2026-01-05 08:04:02 UTC] API Response: Order Sent. ID: a0c32674-7832-4cde-b9bb-c622305dea0d | Status: placed
-[2026-01-05 08:04:02 UTC] ERROR on pf_avaxusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:04:02.977Z"}
-[2026-01-05 08:04:03 UTC] --- Testing pf_dotusd ---
-[2026-01-05 08:04:03 UTC]    Debug: pf_dotusd LotSize: 1.0, Raw: 41.1027, Rounded: 41
-[2026-01-05 08:04:03 UTC] Placing LIMIT BUY 41 @ 1.07 (Mark: 2.14631024301)
-[2026-01-05 08:04:03 UTC] API Response: Order Sent. ID: a0c32676-34a4-4058-a3c0-799698b0c3b0 | Status: placed
-[2026-01-05 08:04:04 UTC] ERROR on pf_dotusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:04:04.124Z"}
-[2026-01-05 08:04:04 UTC] --- Testing pf_linkusd ---
-[2026-01-05 08:04:04 UTC]    Debug: pf_linkusd LotSize: 1.0, Raw: 6.4955, Rounded: 6
-[2026-01-05 08:04:04 UTC] Placing LIMIT BUY 6 @ 6.79 (Mark: 13.58164324951)
-[2026-01-05 08:04:04 UTC] API Response: Order Sent. ID: a0c32677-f5a2-4d68-96dd-e4c4f4776416 | Status: placed
-[2026-01-05 08:04:05 UTC] ERROR on pf_linkusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:04:05.283Z"}
-[2026-01-05 08:04:05 UTC] 4. Uploading Results to GitHub...
+[2026-01-05 08:16:45 UTC] --- STARTING STRESS TEST ---
+[2026-01-05 08:16:45 UTC] Fetching Instrument Specifications...
+[2026-01-05 08:16:45 UTC] Success: Loaded specs for 338 instruments.
+[2026-01-05 08:16:45 UTC] 1. Testing Account API & Fetching Equity...
+[2026-01-05 08:16:45 UTC] SUCCESS: Margin Equity retrieved: $440.87
+[2026-01-05 08:16:45 UTC] 2. Fetching Open Positions & Orders...
+[2026-01-05 08:16:46 UTC] Open Positions Response: 1 positions found.
+[2026-01-05 08:16:46 UTC] Open Orders Response: 11 orders found.
+[2026-01-05 08:16:46 UTC] 3. Testing Order Execution (Place -> Verify -> Edit -> Cancel)...
+[2026-01-05 08:16:46 UTC] Calculated Test Unit Size: $88.17
+[2026-01-05 08:16:46 UTC] --- Testing ff_xbtusd_260327 ---
+[2026-01-05 08:16:46 UTC] SKIPPING: ff_xbtusd_260327 (Size 0 too small for min lot)
+[2026-01-05 08:16:46 UTC] --- Testing pf_ethusd ---
+[2026-01-05 08:16:47 UTC] SKIPPING: pf_ethusd (Size 0 too small for min lot)
+[2026-01-05 08:16:47 UTC] --- Testing pf_solusd ---
+[2026-01-05 08:16:47 UTC] Placing LIMIT BUY 1 @ 67.87 (Mark: 135.73760106008)
+[2026-01-05 08:16:47 UTC] API Response: Order Sent. ID: a0c32b03-e5f8-4c56-a37e-8757cb9349cd | Status: placed
+[2026-01-05 08:16:48 UTC] Verification SUCCESS: Found order a0c32b03-e5f8-4c56-a37e-8757cb9349cd in OpenOrders.
+[2026-01-05 08:16:48 UTC] Testing EDIT: Moving price from 67.87 to 68.55...
+[2026-01-05 08:16:48 UTC] Edit Signal Sent. Status: {'status': 'edited', 'orderId': 'a0c32b03-e5f8-4c56-a37e-8757cb9349cd', 'receivedTime': '2026-01-05T08:16:48.871Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c32b03-e5f8-4c56-a37e-8757cb9349cd', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_SOLUSD', 'side': 'buy', 'quantity': 1, 'filled': 0, 'limitPrice': 67.87, 'reduceOnly': False, 'timestamp': '2026-01-05T08:16:47.426Z', 'lastUpdateTimestamp': '2026-01-05T08:16:47.426Z'}, 'new': {'orderId': 'a0c32b03-e5f8-4c56-a37e-8757cb9349cd', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_SOLUSD', 'side': 'buy', 'quantity': 1, 'filled': 0, 'limitPrice': 68.55, 'reduceOnly': False, 'timestamp': '2026-01-05T08:16:47.426Z', 'lastUpdateTimestamp': '2026-01-05T08:16:48.871Z'}, 'reducedQuantity': None}]}
+[2026-01-05 08:16:50 UTC] Edit Verification SUCCESS: Price updated to 68.55
+[2026-01-05 08:16:50 UTC] Cancelling Order a0c32b03-e5f8-4c56-a37e-8757cb9349cd...
+[2026-01-05 08:16:50 UTC] Cancel Response: {'result': 'error', 'error': 'requiredArgumentMissing', 'serverTime': '2026-01-05T08:16:50.28Z'}
+[2026-01-05 08:16:50 UTC] --- Testing pf_bnbusd ---
+[2026-01-05 08:16:50 UTC] SKIPPING: pf_bnbusd (Size 0 too small for min lot)
+[2026-01-05 08:16:50 UTC] --- Testing pf_xrpusd ---
+[2026-01-05 08:16:50 UTC] Placing LIMIT BUY 41 @ 1.07 (Mark: 2.14965903097)
+[2026-01-05 08:16:51 UTC] API Response: Order Sent. ID: a0c32b09-7360-4ef9-bff6-3dd6e3ebcef7 | Status: placed
+[2026-01-05 08:16:52 UTC] Verification SUCCESS: Found order a0c32b09-7360-4ef9-bff6-3dd6e3ebcef7 in OpenOrders.
+[2026-01-05 08:16:52 UTC] Testing EDIT: Moving price from 1.07 to 1.08...
+[2026-01-05 08:16:52 UTC] Edit Signal Sent. Status: {'status': 'edited', 'orderId': 'a0c32b09-7360-4ef9-bff6-3dd6e3ebcef7', 'receivedTime': '2026-01-05T08:16:52.514Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c32b09-7360-4ef9-bff6-3dd6e3ebcef7', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_XRPUSD', 'side': 'buy', 'quantity': 41, 'filled': 0, 'limitPrice': 1.07, 'reduceOnly': False, 'timestamp': '2026-01-05T08:16:51.065Z', 'lastUpdateTimestamp': '2026-01-05T08:16:51.065Z'}, 'new': {'orderId': 'a0c32b09-7360-4ef9-bff6-3dd6e3ebcef7', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_XRPUSD', 'side': 'buy', 'quantity': 41, 'filled': 0, 'limitPrice': 1.08, 'reduceOnly': False, 'timestamp': '2026-01-05T08:16:51.065Z', 'lastUpdateTimestamp': '2026-01-05T08:16:52.514Z'}, 'reducedQuantity': None}]}
+[2026-01-05 08:16:53 UTC] Edit Verification SUCCESS: Price updated to 1.08
+[2026-01-05 08:16:53 UTC] Cancelling Order a0c32b09-7360-4ef9-bff6-3dd6e3ebcef7...
+[2026-01-05 08:16:53 UTC] Cancel Response: {'result': 'error', 'error': 'requiredArgumentMissing', 'serverTime': '2026-01-05T08:16:53.972Z'}
+[2026-01-05 08:16:54 UTC] --- Testing pf_adausd ---
+[2026-01-05 08:16:54 UTC] Placing LIMIT BUY 219 @ 0.2 (Mark: 0.40330877634)
+[2026-01-05 08:16:54 UTC] API Response: Order Sent. ID: a0c32b0e-9fc7-4509-a12e-ceab112864ba | Status: placed
+[2026-01-05 08:16:55 UTC] Verification SUCCESS: Found order a0c32b0e-9fc7-4509-a12e-ceab112864ba in OpenOrders.
+[2026-01-05 08:16:55 UTC] Testing EDIT: Moving price from 0.2 to 0.2...
+[2026-01-05 08:16:55 UTC] Edit Signal Sent. Status: {'status': 'edited', 'orderId': 'a0c32b0e-9fc7-4509-a12e-ceab112864ba', 'receivedTime': '2026-01-05T08:16:55.879Z', 'orderEvents': []}
+[2026-01-05 08:16:57 UTC] Edit Verification SUCCESS: Price updated to 0.2
+[2026-01-05 08:16:57 UTC] Cancelling Order a0c32b0e-9fc7-4509-a12e-ceab112864ba...
+[2026-01-05 08:16:57 UTC] Cancel Response: {'result': 'error', 'error': 'requiredArgumentMissing', 'serverTime': '2026-01-05T08:16:57.334Z'}
+[2026-01-05 08:16:57 UTC] --- Testing pf_dogeusd ---
+[2026-01-05 08:16:57 UTC] Placing LIMIT BUY 586 @ 0.08 (Mark: 0.1505470053)
+[2026-01-05 08:16:57 UTC] API Response: Order Sent. ID: a0c32b13-cf21-4920-a2b8-b5899f713c8a | Status: placed
+[2026-01-05 08:16:59 UTC] Verification SUCCESS: Found order a0c32b13-cf21-4920-a2b8-b5899f713c8a in OpenOrders.
+[2026-01-05 08:16:59 UTC] Testing EDIT: Moving price from 0.08 to 0.08...
+[2026-01-05 08:16:59 UTC] Edit Signal Sent. Status: {'status': 'edited', 'orderId': 'a0c32b13-cf21-4920-a2b8-b5899f713c8a', 'receivedTime': '2026-01-05T08:16:59.264Z', 'orderEvents': []}
+[2026-01-05 08:17:00 UTC] Edit Verification SUCCESS: Price updated to 0.08
+[2026-01-05 08:17:00 UTC] Cancelling Order a0c32b13-cf21-4920-a2b8-b5899f713c8a...
+[2026-01-05 08:17:00 UTC] Cancel Response: {'result': 'error', 'error': 'requiredArgumentMissing', 'serverTime': '2026-01-05T08:17:00.689Z'}
+[2026-01-05 08:17:00 UTC] --- Testing pf_avaxusd ---
+[2026-01-05 08:17:01 UTC] Placing LIMIT BUY 6 @ 7.17 (Mark: 14.34123836655)
+[2026-01-05 08:17:01 UTC] API Response: Order Sent. ID: a0c32b19-0e2c-4283-87e9-9f56a685650a | Status: placed
+[2026-01-05 08:17:02 UTC] Verification SUCCESS: Found order a0c32b19-0e2c-4283-87e9-9f56a685650a in OpenOrders.
+[2026-01-05 08:17:02 UTC] Testing EDIT: Moving price from 7.17 to 7.24...
+[2026-01-05 08:17:02 UTC] Edit Signal Sent. Status: {'status': 'edited', 'orderId': 'a0c32b19-0e2c-4283-87e9-9f56a685650a', 'receivedTime': '2026-01-05T08:17:02.712Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c32b19-0e2c-4283-87e9-9f56a685650a', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_AVAXUSD', 'side': 'buy', 'quantity': 6, 'filled': 0, 'limitPrice': 7.17, 'reduceOnly': False, 'timestamp': '2026-01-05T08:17:01.291Z', 'lastUpdateTimestamp': '2026-01-05T08:17:01.291Z'}, 'new': {'orderId': 'a0c32b19-0e2c-4283-87e9-9f56a685650a', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_AVAXUSD', 'side': 'buy', 'quantity': 6, 'filled': 0, 'limitPrice': 7.24, 'reduceOnly': False, 'timestamp': '2026-01-05T08:17:01.291Z', 'lastUpdateTimestamp': '2026-01-05T08:17:02.712Z'}, 'reducedQuantity': None}]}
+[2026-01-05 08:17:03 UTC] Edit Verification SUCCESS: Price updated to 7.24
+[2026-01-05 08:17:03 UTC] Cancelling Order a0c32b19-0e2c-4283-87e9-9f56a685650a...
+[2026-01-05 08:17:04 UTC] Cancel Response: {'result': 'error', 'error': 'requiredArgumentMissing', 'serverTime': '2026-01-05T08:17:04.153Z'}
+[2026-01-05 08:17:04 UTC] --- Testing pf_dotusd ---
+[2026-01-05 08:17:04 UTC] Placing LIMIT BUY 41 @ 1.07 (Mark: 2.14532172358)
+[2026-01-05 08:17:04 UTC] API Response: Order Sent. ID: a0c32b1e-2aeb-48d4-aa63-e645fdcf0a58 | Status: placed
+[2026-01-05 08:17:05 UTC] Verification SUCCESS: Found order a0c32b1e-2aeb-48d4-aa63-e645fdcf0a58 in OpenOrders.
+[2026-01-05 08:17:05 UTC] Testing EDIT: Moving price from 1.07 to 1.08...
+[2026-01-05 08:17:06 UTC] Edit Signal Sent. Status: {'status': 'edited', 'orderId': 'a0c32b1e-2aeb-48d4-aa63-e645fdcf0a58', 'receivedTime': '2026-01-05T08:17:06.078Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c32b1e-2aeb-48d4-aa63-e645fdcf0a58', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_DOTUSD', 'side': 'buy', 'quantity': 41, 'filled': 0, 'limitPrice': 1.07, 'reduceOnly': False, 'timestamp': '2026-01-05T08:17:04.642Z', 'lastUpdateTimestamp': '2026-01-05T08:17:04.642Z'}, 'new': {'orderId': 'a0c32b1e-2aeb-48d4-aa63-e645fdcf0a58', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_DOTUSD', 'side': 'buy', 'quantity': 41, 'filled': 0, 'limitPrice': 1.08, 'reduceOnly': False, 'timestamp': '2026-01-05T08:17:04.642Z', 'lastUpdateTimestamp': '2026-01-05T08:17:06.078Z'}, 'reducedQuantity': None}]}
+[2026-01-05 08:17:07 UTC] Edit Verification SUCCESS: Price updated to 1.08
+[2026-01-05 08:17:07 UTC] Cancelling Order a0c32b1e-2aeb-48d4-aa63-e645fdcf0a58...
+[2026-01-05 08:17:07 UTC] Cancel Response: {'result': 'error', 'error': 'requiredArgumentMissing', 'serverTime': '2026-01-05T08:17:07.546Z'}
+[2026-01-05 08:17:07 UTC] --- Testing pf_linkusd ---
+[2026-01-05 08:17:07 UTC] Placing LIMIT BUY 6 @ 6.8 (Mark: 13.59567223822)
+[2026-01-05 08:17:08 UTC] API Response: Order Sent. ID: a0c32b23-6fa3-474b-9cf3-a46816f2ae6d | Status: placed
+[2026-01-05 08:17:09 UTC] Verification SUCCESS: Found order a0c32b23-6fa3-474b-9cf3-a46816f2ae6d in OpenOrders.
+[2026-01-05 08:17:09 UTC] Testing EDIT: Moving price from 6.8 to 6.87...
+[2026-01-05 08:17:09 UTC] Edit Signal Sent. Status: {'status': 'edited', 'orderId': 'a0c32b23-6fa3-474b-9cf3-a46816f2ae6d', 'receivedTime': '2026-01-05T08:17:09.500Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c32b23-6fa3-474b-9cf3-a46816f2ae6d', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_LINKUSD', 'side': 'buy', 'quantity': 6, 'filled': 0, 'limitPrice': 6.8, 'reduceOnly': False, 'timestamp': '2026-01-05T08:17:08.095Z', 'lastUpdateTimestamp': '2026-01-05T08:17:08.095Z'}, 'new': {'orderId': 'a0c32b23-6fa3-474b-9cf3-a46816f2ae6d', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_LINKUSD', 'side': 'buy', 'quantity': 6, 'filled': 0, 'limitPrice': 6.87, 'reduceOnly': False, 'timestamp': '2026-01-05T08:17:08.095Z', 'lastUpdateTimestamp': '2026-01-05T08:17:09.500Z'}, 'reducedQuantity': None}]}
+[2026-01-05 08:17:10 UTC] Edit Verification SUCCESS: Price updated to 6.87
+[2026-01-05 08:17:10 UTC] Cancelling Order a0c32b23-6fa3-474b-9cf3-a46816f2ae6d...
+[2026-01-05 08:17:10 UTC] Cancel Response: {'result': 'error', 'error': 'requiredArgumentMissing', 'serverTime': '2026-01-05T08:17:10.92Z'}
+[2026-01-05 08:17:11 UTC] 4. Uploading Results to GitHub...

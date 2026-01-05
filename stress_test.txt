@@ -1,49 +1,55 @@
-[2026-01-05 08:03:30 UTC] --- STARTING STRESS TEST ---
-[2026-01-05 08:03:30 UTC] 1. Testing Account API & Fetching Equity...
-[2026-01-05 08:03:30 UTC] SUCCESS: Margin Equity retrieved: $441.08
-[2026-01-05 08:03:30 UTC] 2. Fetching Open Positions & Orders...
-[2026-01-05 08:03:30 UTC] Open Positions Response: 1 positions found.
-[2026-01-05 08:03:31 UTC] Open Orders Response: 4 orders found.
-[2026-01-05 08:03:31 UTC] 3. Testing Order Execution (Place & Cancel) for all symbols...
-[2026-01-05 08:03:31 UTC] Calculated Test Unit Size: $88.22
-[2026-01-05 08:03:31 UTC] --- Testing ff_xbtusd_260327 ---
-[2026-01-05 08:03:31 UTC] Placing LIMIT BUY 0.0009 @ 46647.23 (Mark: 93294.46196289652)
-[2026-01-05 08:03:31 UTC] API Response: Order Sent. ID: a0c32645-a638-4f3e-a5ed-4673567c1993 | Status: invalidPrice
-[2026-01-05 08:03:32 UTC] ERROR on ff_xbtusd_260327: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:03:32.309Z"}
-[2026-01-05 08:03:32 UTC] --- Testing pf_ethusd ---
-[2026-01-05 08:03:32 UTC] Placing LIMIT BUY 0.0279 @ 1578.88 (Mark: 3157.7566493423)
-[2026-01-05 08:03:32 UTC] API Response: Order Sent. ID: a0c32647-46e0-4b3d-b074-8f8685fe0047 | Status: invalidPrice
-[2026-01-05 08:03:33 UTC] ERROR on pf_ethusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:03:33.373Z"}
-[2026-01-05 08:03:33 UTC] --- Testing pf_solusd ---
-[2026-01-05 08:03:33 UTC] Placing LIMIT BUY 0.6513 @ 67.72 (Mark: 135.43698856081)
-[2026-01-05 08:03:33 UTC] API Response: Order Sent. ID: a0c32648-f6a3-4730-9753-3535a079cf07 | Status: invalidSize
-[2026-01-05 08:03:34 UTC] ERROR on pf_solusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:03:34.482Z"}
-[2026-01-05 08:03:34 UTC] --- Testing pf_bnbusd ---
-[2026-01-05 08:03:34 UTC] Placing LIMIT BUY 0.0981 @ 449.47 (Mark: 898.93314421527)
-[2026-01-05 08:03:34 UTC] API Response: Order Sent. ID: a0c3264a-9901-4129-b9d4-e35834e6c9d6 | Status: invalidSize
-[2026-01-05 08:03:35 UTC] ERROR on pf_bnbusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:03:35.558Z"}
-[2026-01-05 08:03:35 UTC] --- Testing pf_xrpusd ---
-[2026-01-05 08:03:35 UTC] Placing LIMIT BUY 41.3956 @ 1.07 (Mark: 2.13105383059)
-[2026-01-05 08:03:36 UTC] API Response: Order Sent. ID: a0c3264c-4552-4c09-9663-82a303979635 | Status: invalidSize
-[2026-01-05 08:03:36 UTC] ERROR on pf_xrpusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:03:36.688Z"}
-[2026-01-05 08:03:36 UTC] --- Testing pf_adausd ---
-[2026-01-05 08:03:36 UTC] Placing LIMIT BUY 219.8817 @ 0.2 (Mark: 0.40119851627)
-[2026-01-05 08:03:37 UTC] API Response: Order Sent. ID: a0c3264d-f4c2-484c-abdc-885d12b5c461 | Status: invalidSize
-[2026-01-05 08:03:37 UTC] ERROR on pf_adausd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:03:37.755Z"}
-[2026-01-05 08:03:37 UTC] --- Testing pf_dogeusd ---
-[2026-01-05 08:03:38 UTC] Placing LIMIT BUY 588.9095 @ 0.07 (Mark: 0.14979586789)
-[2026-01-05 08:03:38 UTC] API Response: Order Sent. ID: a0c3264f-9c39-4297-a460-7ff57e97aeaa | Status: invalidSize
-[2026-01-05 08:03:38 UTC] ERROR on pf_dogeusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:03:38.832Z"}
-[2026-01-05 08:03:38 UTC] --- Testing pf_avaxusd ---
-[2026-01-05 08:03:39 UTC] Placing LIMIT BUY 6.1738 @ 7.14 (Mark: 14.28872701482)
-[2026-01-05 08:03:39 UTC] API Response: Order Sent. ID: a0c32651-4783-4935-8ed4-3771cad6674d | Status: invalidSize
-[2026-01-05 08:03:39 UTC] ERROR on pf_avaxusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:03:39.932Z"}
-[2026-01-05 08:03:40 UTC] --- Testing pf_dotusd ---
-[2026-01-05 08:03:40 UTC] Placing LIMIT BUY 41.127 @ 1.07 (Mark: 2.14496883533)
-[2026-01-05 08:03:40 UTC] API Response: Order Sent. ID: a0c32652-e729-409e-a61c-def13799d3be | Status: invalidSize
-[2026-01-05 08:03:41 UTC] ERROR on pf_dotusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:03:40.994Z"}
-[2026-01-05 08:03:41 UTC] --- Testing pf_linkusd ---
-[2026-01-05 08:03:41 UTC] Placing LIMIT BUY 6.4963 @ 6.79 (Mark: 13.57940073013)
-[2026-01-05 08:03:41 UTC] API Response: Order Sent. ID: a0c32654-8ce2-4c63-9a28-048984e9fe43 | Status: invalidSize
-[2026-01-05 08:03:42 UTC] ERROR on pf_linkusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:03:42.069Z"}
-[2026-01-05 08:03:42 UTC] 4. Uploading Results to GitHub...
+[2026-01-05 08:03:54 UTC] --- STARTING STRESS TEST ---
+[2026-01-05 08:03:54 UTC] Fetching Instrument Specifications...
+[2026-01-05 08:03:55 UTC] Success: Loaded specs for 338 instruments.
+[2026-01-05 08:03:55 UTC] 1. Testing Account API & Fetching Equity...
+[2026-01-05 08:03:55 UTC] SUCCESS: Margin Equity retrieved: $441.10
+[2026-01-05 08:03:55 UTC] 2. Fetching Open Positions & Orders...
+[2026-01-05 08:03:55 UTC] Open Positions Response: 1 positions found.
+[2026-01-05 08:03:55 UTC] Open Orders Response: 4 orders found.
+[2026-01-05 08:03:55 UTC] 3. Testing Order Execution (Place & Cancel) for all symbols...
+[2026-01-05 08:03:56 UTC] Calculated Test Unit Size: $88.22
+[2026-01-05 08:03:56 UTC] --- Testing ff_xbtusd_260327 ---
+[2026-01-05 08:03:56 UTC]    Debug: ff_xbtusd_260327 LotSize: 1.0, Raw: 0.0009, Rounded: 0
+[2026-01-05 08:03:56 UTC] SKIPPING: Size 0 is too small/zero.
+[2026-01-05 08:03:56 UTC] --- Testing pf_ethusd ---
+[2026-01-05 08:03:56 UTC]    Debug: pf_ethusd LotSize: 1.0, Raw: 0.0279, Rounded: 0
+[2026-01-05 08:03:56 UTC] SKIPPING: Size 0 is too small/zero.
+[2026-01-05 08:03:56 UTC] --- Testing pf_solusd ---
+[2026-01-05 08:03:57 UTC]    Debug: pf_solusd LotSize: 1.0, Raw: 0.6514, Rounded: 1
+[2026-01-05 08:03:57 UTC] Placing LIMIT BUY 1 @ 67.71 (Mark: 135.42738185313)
+[2026-01-05 08:03:57 UTC] API Response: Order Sent. ID: a0c3266c-c50c-4558-bf28-a7c355e8a7e4 | Status: placed
+[2026-01-05 08:03:57 UTC] ERROR on pf_solusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:03:57.94Z"}
+[2026-01-05 08:03:58 UTC] --- Testing pf_bnbusd ---
+[2026-01-05 08:03:58 UTC]    Debug: pf_bnbusd LotSize: 1.0, Raw: 0.0981, Rounded: 0
+[2026-01-05 08:03:58 UTC] SKIPPING: Size 0 is too small/zero.
+[2026-01-05 08:03:58 UTC] --- Testing pf_xrpusd ---
+[2026-01-05 08:03:58 UTC]    Debug: pf_xrpusd LotSize: 1.0, Raw: 41.3878, Rounded: 41
+[2026-01-05 08:03:58 UTC] Placing LIMIT BUY 41 @ 1.07 (Mark: 2.13152532242)
+[2026-01-05 08:03:58 UTC] API Response: Order Sent. ID: a0c3266f-1816-4411-b4cb-97e5e5256bd7 | Status: placed
+[2026-01-05 08:03:59 UTC] ERROR on pf_xrpusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:03:59.476Z"}
+[2026-01-05 08:03:59 UTC] --- Testing pf_adausd ---
+[2026-01-05 08:03:59 UTC]    Debug: pf_adausd LotSize: 1.0, Raw: 219.8262, Rounded: 220
+[2026-01-05 08:03:59 UTC] Placing LIMIT BUY 220 @ 0.2 (Mark: 0.40131306956)
+[2026-01-05 08:04:00 UTC] API Response: Order Sent. ID: a0c32670-e382-4d18-b7c4-c43fa474d242 | Status: placed
+[2026-01-05 08:04:00 UTC] ERROR on pf_adausd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:04:00.642Z"}
+[2026-01-05 08:04:00 UTC] --- Testing pf_dogeusd ---
+[2026-01-05 08:04:00 UTC]    Debug: pf_dogeusd LotSize: 1.0, Raw: 588.8985, Rounded: 589
+[2026-01-05 08:04:01 UTC] Placing LIMIT BUY 589 @ 0.07 (Mark: 0.14980363214)
+[2026-01-05 08:04:01 UTC] API Response: Order Sent. ID: a0c32672-a6bf-43ed-9397-479bbabc4022 | Status: placed
+[2026-01-05 08:04:01 UTC] ERROR on pf_dogeusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:04:01.826Z"}
+[2026-01-05 08:04:01 UTC] --- Testing pf_avaxusd ---
+[2026-01-05 08:04:02 UTC]    Debug: pf_avaxusd LotSize: 1.0, Raw: 6.1742, Rounded: 6
+[2026-01-05 08:04:02 UTC] Placing LIMIT BUY 6 @ 7.14 (Mark: 14.28835556838)
+[2026-01-05 08:04:02 UTC] API Response: Order Sent. ID: a0c32674-7832-4cde-b9bb-c622305dea0d | Status: placed
+[2026-01-05 08:04:02 UTC] ERROR on pf_avaxusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:04:02.977Z"}
+[2026-01-05 08:04:03 UTC] --- Testing pf_dotusd ---
+[2026-01-05 08:04:03 UTC]    Debug: pf_dotusd LotSize: 1.0, Raw: 41.1027, Rounded: 41
+[2026-01-05 08:04:03 UTC] Placing LIMIT BUY 41 @ 1.07 (Mark: 2.14631024301)
+[2026-01-05 08:04:03 UTC] API Response: Order Sent. ID: a0c32676-34a4-4058-a3c0-799698b0c3b0 | Status: placed
+[2026-01-05 08:04:04 UTC] ERROR on pf_dotusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:04:04.124Z"}
+[2026-01-05 08:04:04 UTC] --- Testing pf_linkusd ---
+[2026-01-05 08:04:04 UTC]    Debug: pf_linkusd LotSize: 1.0, Raw: 6.4955, Rounded: 6
+[2026-01-05 08:04:04 UTC] Placing LIMIT BUY 6 @ 6.79 (Mark: 13.58164324951)
+[2026-01-05 08:04:04 UTC] API Response: Order Sent. ID: a0c32677-f5a2-4d68-96dd-e4c4f4776416 | Status: placed
+[2026-01-05 08:04:05 UTC] ERROR on pf_linkusd: GET /derivatives/api/v3/orders failed : {"status":"NOT_FOUND","result":"error","errors":[{"code":0,"message":"404 NOT_FOUND"}],"serverTime":"2026-01-05T08:04:05.283Z"}
+[2026-01-05 08:04:05 UTC] 4. Uploading Results to GitHub...

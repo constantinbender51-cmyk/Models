@@ -1,29 +1,29 @@
 {
   "asset": "SOLUSDT",
   "timeframe": "240m",
-  "timestamp": "2026-01-04T22:44:47.261290",
-  "data_points": 11837,
+  "timestamp": "2026-01-06T05:31:08.367747",
+  "data_points": 11845,
   "strategy_union": [
-    {
-      "bucket_size": 10,
-      "seq_len": 4,
-      "model_type": "Combined",
-      "accuracy": 79.3103448275862,
-      "trades": 29
-    },
-    {
-      "bucket_size": 10,
-      "seq_len": 3,
-      "model_type": "Absolute",
-      "accuracy": 74.39024390243902,
-      "trades": 82
-    },
     {
       "bucket_size": 9,
       "seq_len": 4,
       "model_type": "Combined",
       "accuracy": 73.68421052631578,
       "trades": 38
+    },
+    {
+      "bucket_size": 9,
+      "seq_len": 3,
+      "model_type": "Combined",
+      "accuracy": 72.72727272727273,
+      "trades": 33
+    },
+    {
+      "bucket_size": 10,
+      "seq_len": 4,
+      "model_type": "Combined",
+      "accuracy": 72.41379310344827,
+      "trades": 29
     }
   ]
 }

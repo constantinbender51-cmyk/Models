@@ -1,29 +1,29 @@
 {
   "asset": "BNBUSDT",
   "timeframe": "60m",
-  "timestamp": "2026-01-04T22:42:23.311292",
-  "data_points": 52671,
+  "timestamp": "2026-01-06T05:28:49.281464",
+  "data_points": 52702,
   "strategy_union": [
     {
       "bucket_size": 10,
       "seq_len": 3,
-      "model_type": "Combined",
-      "accuracy": 60.773480662983424,
-      "trades": 181
+      "model_type": "Derivative",
+      "accuracy": 61.452513966480446,
+      "trades": 179
     },
     {
       "bucket_size": 8,
       "seq_len": 3,
       "model_type": "Combined",
-      "accuracy": 59.27152317880795,
-      "trades": 302
+      "accuracy": 59.0,
+      "trades": 300
     },
     {
       "bucket_size": 10,
-      "seq_len": 4,
+      "seq_len": 5,
       "model_type": "Derivative",
-      "accuracy": 58.24915824915825,
-      "trades": 297
+      "accuracy": 58.526315789473685,
+      "trades": 475
     }
   ]
 }

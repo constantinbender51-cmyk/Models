@@ -1,8 +1,8 @@
 {
   "asset": "XRPUSDT",
   "timeframe": "30m",
-  "timestamp": "2026-01-04T22:47:14.921325",
-  "data_points": 105332,
+  "timestamp": "2026-01-06T05:33:07.440114",
+  "data_points": 105394,
   "strategy_union": [
     {
       "bucket_size": 2,

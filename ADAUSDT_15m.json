@@ -1,0 +1,34 @@
+{
+  "asset": "ADAUSDT",
+  "timeframe": "15m",
+  "timestamp": "2026-01-06T05:51:45.360800",
+  "data_points": 210783,
+  "combined_accuracy": 84.26966292134831,
+  "combined_trades": 89,
+  "strategy_union": [
+    {
+      "bucket_count": 25,
+      "bucket_size": 0.12306,
+      "seq_len": 5,
+      "model_type": "Absolute",
+      "accuracy": 89.1891891891892,
+      "trades": 37
+    },
+    {
+      "bucket_count": 75,
+      "bucket_size": 0.04102,
+      "seq_len": 3,
+      "model_type": "Absolute",
+      "accuracy": 82.92682926829268,
+      "trades": 41
+    },
+    {
+      "bucket_count": 50,
+      "bucket_size": 0.06153,
+      "seq_len": 4,
+      "model_type": "Absolute",
+      "accuracy": 82.35294117647058,
+      "trades": 34
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "asset": "ADAUSDT",
   "timeframe": "15m",
-  "timestamp": "2026-01-04T22:49:42.550026",
-  "data_points": 210659,
+  "timestamp": "2026-01-06T05:35:04.378086",
+  "data_points": 210782,
   "strategy_union": [
     {
       "bucket_size": 1,
@@ -23,7 +23,7 @@
       "seq_len": 5,
       "model_type": "Absolute",
       "accuracy": 100.0,
-      "trades": 24
+      "trades": 26
     }
   ]
 }

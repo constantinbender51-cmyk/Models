@@ -1,0 +1,34 @@
+{
+  "asset": "XRPUSDT",
+  "timeframe": "15m",
+  "timestamp": "2026-01-06T05:49:29.629280",
+  "data_points": 210783,
+  "combined_accuracy": 79.1044776119403,
+  "combined_trades": 134,
+  "strategy_union": [
+    {
+      "bucket_count": 25,
+      "bucket_size": 0.1417816,
+      "seq_len": 8,
+      "model_type": "Derivative",
+      "accuracy": 83.83838383838383,
+      "trades": 99
+    },
+    {
+      "bucket_count": 25,
+      "bucket_size": 0.1417816,
+      "seq_len": 6,
+      "model_type": "Derivative",
+      "accuracy": 73.68421052631578,
+      "trades": 38
+    },
+    {
+      "bucket_count": 10,
+      "bucket_size": 0.354454,
+      "seq_len": 8,
+      "model_type": "Derivative",
+      "accuracy": 72.22222222222221,
+      "trades": 36
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "asset": "BNBUSDT",
+  "timeframe": "1d",
+  "timestamp": "2026-01-06T05:45:46.723233",
+  "data_points": 2198,
+  "combined_accuracy": 62.295081967213115,
+  "combined_trades": 61,
+  "strategy_union": [
+    {
+      "bucket_count": 25,
+      "bucket_size": 51.92573600000001,
+      "seq_len": 5,
+      "model_type": "Combined",
+      "accuracy": 77.41935483870968,
+      "trades": 31
+    },
+    {
+      "bucket_count": 25,
+      "bucket_size": 51.92573600000001,
+      "seq_len": 4,
+      "model_type": "Combined",
+      "accuracy": 70.83333333333334,
+      "trades": 24
+    },
+    {
+      "bucket_count": 25,
+      "bucket_size": 51.92573600000001,
+      "seq_len": 6,
+      "model_type": "Combined",
+      "accuracy": 62.16216216216216,
+      "trades": 37
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "asset": "DOGEUSDT",
+  "timeframe": "30m",
+  "timestamp": "2026-01-06T05:54:08.013741",
+  "data_points": 105394,
+  "combined_accuracy": 90.990990990991,
+  "combined_trades": 111,
+  "strategy_union": [
+    {
+      "bucket_count": 25,
+      "bucket_size": 0.029396040000000002,
+      "seq_len": 3,
+      "model_type": "Absolute",
+      "accuracy": 97.14285714285714,
+      "trades": 35
+    },
+    {
+      "bucket_count": 50,
+      "bucket_size": 0.014698020000000001,
+      "seq_len": 4,
+      "model_type": "Combined",
+      "accuracy": 84.61538461538461,
+      "trades": 26
+    },
+    {
+      "bucket_count": 25,
+      "bucket_size": 0.029396040000000002,
+      "seq_len": 8,
+      "model_type": "Derivative",
+      "accuracy": 83.63636363636363,
+      "trades": 55
+    }
+  ]
+}

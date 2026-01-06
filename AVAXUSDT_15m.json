@@ -1,0 +1,34 @@
+{
+  "asset": "AVAXUSDT",
+  "timeframe": "15m",
+  "timestamp": "2026-01-06T05:56:13.727484",
+  "data_points": 185376,
+  "combined_accuracy": 89.74358974358975,
+  "combined_trades": 117,
+  "strategy_union": [
+    {
+      "bucket_count": 50,
+      "bucket_size": 2.8588399999999994,
+      "seq_len": 5,
+      "model_type": "Absolute",
+      "accuracy": 92.5925925925926,
+      "trades": 27
+    },
+    {
+      "bucket_count": 50,
+      "bucket_size": 2.8588399999999994,
+      "seq_len": 6,
+      "model_type": "Absolute",
+      "accuracy": 89.55223880597015,
+      "trades": 67
+    },
+    {
+      "bucket_count": 75,
+      "bucket_size": 1.905893333333333,
+      "seq_len": 5,
+      "model_type": "Absolute",
+      "accuracy": 84.78260869565217,
+      "trades": 46
+    }
+  ]
+}

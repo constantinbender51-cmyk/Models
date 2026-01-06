@@ -1,0 +1,34 @@
+{
+  "asset": "DOTUSDT",
+  "timeframe": "30m",
+  "timestamp": "2026-01-06T05:58:24.997065",
+  "data_points": 94337,
+  "combined_accuracy": 74.19354838709677,
+  "combined_trades": 93,
+  "strategy_union": [
+    {
+      "bucket_count": 75,
+      "bucket_size": 0.7115866666666667,
+      "seq_len": 3,
+      "model_type": "Absolute",
+      "accuracy": 77.08333333333334,
+      "trades": 48
+    },
+    {
+      "bucket_count": 75,
+      "bucket_size": 0.7115866666666667,
+      "seq_len": 4,
+      "model_type": "Absolute",
+      "accuracy": 75.43859649122807,
+      "trades": 57
+    },
+    {
+      "bucket_count": 25,
+      "bucket_size": 2.13476,
+      "seq_len": 3,
+      "model_type": "Absolute",
+      "accuracy": 74.28571428571429,
+      "trades": 35
+    }
+  ]
+}

@@ -1,34 +1,50 @@
 {
   "asset": "BTCUSDT",
   "timeframe": "1d",
-  "timestamp": "2026-01-06T05:41:25.749143",
-  "data_points": 2198,
-  "combined_accuracy": 56.71641791044776,
-  "combined_trades": 134,
+  "timestamp": "2026-01-07T14:46:29.630436",
+  "data_points": 2199,
+  "combined_accuracy": 71.69811320754717,
+  "combined_trades": 106,
   "strategy_union": [
     {
-      "bucket_count": 50,
-      "bucket_size": 2397.1708,
-      "seq_len": 3,
+      "bucket_count": 30,
+      "bucket_size": 3995.2846666666665,
+      "seq_len": 5,
       "model_type": "Derivative",
-      "accuracy": 60.37735849056604,
+      "accuracy": 67.74193548387096,
+      "trades": 31
+    },
+    {
+      "bucket_count": 40,
+      "bucket_size": 2996.4635,
+      "seq_len": 4,
+      "model_type": "Combined",
+      "accuracy": 65.625,
+      "trades": 32
+    },
+    {
+      "bucket_count": 40,
+      "bucket_size": 2996.4635,
+      "seq_len": 5,
+      "model_type": "Derivative",
+      "accuracy": 64.15094339622641,
       "trades": 53
     },
     {
-      "bucket_count": 25,
-      "bucket_size": 4794.3416,
-      "seq_len": 5,
-      "model_type": "Combined",
-      "accuracy": 60.0,
-      "trades": 25
+      "bucket_count": 20,
+      "bucket_size": 5992.927,
+      "seq_len": 8,
+      "model_type": "Derivative",
+      "accuracy": 63.63636363636363,
+      "trades": 33
     },
     {
-      "bucket_count": 75,
-      "bucket_size": 1598.1138666666666,
+      "bucket_count": 70,
+      "bucket_size": 1712.264857142857,
       "seq_len": 3,
       "model_type": "Combined",
-      "accuracy": 56.64335664335665,
-      "trades": 143
+      "accuracy": 63.63636363636363,
+      "trades": 55
     }
   ]
 }

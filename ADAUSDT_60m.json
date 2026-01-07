@@ -1,34 +1,50 @@
 {
   "asset": "ADAUSDT",
   "timeframe": "60m",
-  "timestamp": "2026-01-06T05:52:06.793775",
-  "data_points": 52702,
-  "combined_accuracy": 79.27927927927928,
-  "combined_trades": 111,
+  "timestamp": "2026-01-07T15:11:16.079858",
+  "data_points": 52736,
+  "combined_accuracy": 82.6086956521739,
+  "combined_trades": 138,
   "strategy_union": [
     {
-      "bucket_count": 25,
-      "bucket_size": 0.1229964,
+      "bucket_count": 90,
+      "bucket_size": 0.034165666666666664,
+      "seq_len": 5,
+      "model_type": "Derivative",
+      "accuracy": 88.09523809523809,
+      "trades": 42
+    },
+    {
+      "bucket_count": 20,
+      "bucket_size": 0.1537455,
       "seq_len": 5,
       "model_type": "Absolute",
+      "accuracy": 85.71428571428571,
+      "trades": 35
+    },
+    {
+      "bucket_count": 110,
+      "bucket_size": 0.027953727272727272,
+      "seq_len": 4,
+      "model_type": "Derivative",
+      "accuracy": 85.71428571428571,
+      "trades": 42
+    },
+    {
+      "bucket_count": 60,
+      "bucket_size": 0.0512485,
+      "seq_len": 8,
+      "model_type": "Derivative",
+      "accuracy": 82.25806451612904,
+      "trades": 62
+    },
+    {
+      "bucket_count": 90,
+      "bucket_size": 0.034165666666666664,
+      "seq_len": 4,
+      "model_type": "Derivative",
       "accuracy": 81.81818181818183,
       "trades": 22
-    },
-    {
-      "bucket_count": 50,
-      "bucket_size": 0.0614982,
-      "seq_len": 4,
-      "model_type": "Absolute",
-      "accuracy": 81.35593220338984,
-      "trades": 59
-    },
-    {
-      "bucket_count": 75,
-      "bucket_size": 0.0409988,
-      "seq_len": 3,
-      "model_type": "Absolute",
-      "accuracy": 78.94736842105263,
-      "trades": 57
     }
   ]
 }

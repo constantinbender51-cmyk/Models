@@ -1,34 +1,50 @@
 {
   "asset": "DOTUSDT",
   "timeframe": "60m",
-  "timestamp": "2026-01-06T05:58:32.480153",
-  "data_points": 47171,
-  "combined_accuracy": 73.62637362637363,
-  "combined_trades": 91,
+  "timestamp": "2026-01-07T15:25:40.344052",
+  "data_points": 47205,
+  "combined_accuracy": 88.88888888888889,
+  "combined_trades": 144,
   "strategy_union": [
     {
-      "bucket_count": 100,
-      "bucket_size": 0.53368,
-      "seq_len": 8,
-      "model_type": "Combined",
-      "accuracy": 76.66666666666667,
-      "trades": 30
+      "bucket_count": 40,
+      "bucket_size": 1.3342,
+      "seq_len": 5,
+      "model_type": "Absolute",
+      "accuracy": 90.9090909090909,
+      "trades": 22
     },
     {
-      "bucket_count": 200,
-      "bucket_size": 0.26684,
+      "bucket_count": 30,
+      "bucket_size": 1.7789333333333335,
+      "seq_len": 3,
+      "model_type": "Absolute",
+      "accuracy": 90.47619047619048,
+      "trades": 21
+    },
+    {
+      "bucket_count": 30,
+      "bucket_size": 1.7789333333333335,
       "seq_len": 4,
-      "model_type": "Derivative",
-      "accuracy": 76.0,
+      "model_type": "Absolute",
+      "accuracy": 84.0,
       "trades": 25
     },
     {
-      "bucket_count": 75,
-      "bucket_size": 0.7115733333333334,
-      "seq_len": 4,
+      "bucket_count": 30,
+      "bucket_size": 1.7789333333333335,
+      "seq_len": 5,
       "model_type": "Absolute",
-      "accuracy": 70.37037037037037,
-      "trades": 54
+      "accuracy": 82.35294117647058,
+      "trades": 34
+    },
+    {
+      "bucket_count": 70,
+      "bucket_size": 0.7624000000000001,
+      "seq_len": 3,
+      "model_type": "Absolute",
+      "accuracy": 80.0,
+      "trades": 55
     }
   ]
 }

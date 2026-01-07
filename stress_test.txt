@@ -1,66 +1,66 @@
-[2026-01-07 03:06:55 UTC] --- STARTING STRESS TEST (Blind Execution Mode) ---
-[2026-01-07 03:06:55 UTC] Fetching Instrument Specifications...
-[2026-01-07 03:06:56 UTC] Success: Loaded specs for 338 instruments.
-[2026-01-07 03:06:56 UTC] 1. Testing Account API & Fetching Equity...
-[2026-01-07 03:06:56 UTC] SUCCESS: Margin Equity retrieved: $579.05
-[2026-01-07 03:06:56 UTC] 2. Logging Open Positions & Orders (Informational)...
-[2026-01-07 03:06:56 UTC] Open Positions: 1
-[2026-01-07 03:06:56 UTC] Open Orders: 4
-[2026-01-07 03:06:57 UTC] 3. Testing Order Execution (Place -> Edit -> Cancel)...
-[2026-01-07 03:06:57 UTC] Calculated Test Unit Size: $115.81
-[2026-01-07 03:06:57 UTC] --- Testing ff_xbtusd_260327 ---
-[2026-01-07 03:06:57 UTC] SKIPPING: ff_xbtusd_260327 (Size 0 too small)
-[2026-01-07 03:06:57 UTC] --- Testing pf_ethusd ---
-[2026-01-07 03:06:57 UTC] SKIPPING: pf_ethusd (Size 0 too small)
-[2026-01-07 03:06:57 UTC] --- Testing pf_solusd ---
-[2026-01-07 03:06:58 UTC] Placing LIMIT BUY 1 @ 69.93
-[2026-01-07 03:06:58 UTC] SUCCESS: Order Placed. ID: a0c6c22e-ea8c-400d-a77d-d146cc690c13
-[2026-01-07 03:06:58 UTC] Editing: Moving price to 70.63...
-[2026-01-07 03:06:59 UTC] WARNING: Edit response uncertain: {'result': 'success', 'serverTime': '2026-01-07T03:06:59.100Z', 'editStatus': {'status': 'edited', 'orderId': 'a0c6c22e-ea8c-400d-a77d-d146cc690c13', 'receivedTime': '2026-01-07T03:06:59.100Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c6c22e-ea8c-400d-a77d-d146cc690c13', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_SOLUSD', 'side': 'buy', 'quantity': 1, 'filled': 0, 'limitPrice': 69.93, 'reduceOnly': False, 'timestamp': '2026-01-07T03:06:58.233Z', 'lastUpdateTimestamp': '2026-01-07T03:06:58.233Z'}, 'new': {'orderId': 'a0c6c22e-ea8c-400d-a77d-d146cc690c13', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_SOLUSD', 'side': 'buy', 'quantity': 1, 'filled': 0, 'limitPrice': 70.63, 'reduceOnly': False, 'timestamp': '2026-01-07T03:06:58.233Z', 'lastUpdateTimestamp': '2026-01-07T03:06:59.100Z'}, 'reducedQuantity': None}]}}
-[2026-01-07 03:06:59 UTC] Cancelling Order a0c6c22e-ea8c-400d-a77d-d146cc690c13...
-[2026-01-07 03:06:59 UTC] Cancel Response: {'result': 'success', 'serverTime': '2026-01-07T03:06:59.854Z', 'cancelStatus': {'status': 'cancelled', 'order_id': 'a0c6c22e-ea8c-400d-a77d-d146cc690c13', 'receivedTime': '2026-01-07T03:06:59.854Z', 'orderEvents': [{'type': 'CANCEL', 'uid': 'a0c6c22e-ea8c-400d-a77d-d146cc690c13', 'order': {'orderId': 'a0c6c22e-ea8c-400d-a77d-d146cc690c13', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_SOLUSD', 'side': 'buy', 'quantity': 1, 'filled': 0, 'limitPrice': 70.63, 'reduceOnly': False, 'timestamp': '2026-01-07T03:06:58.233Z', 'lastUpdateTimestamp': '2026-01-07T03:06:59.100Z'}}]}}
-[2026-01-07 03:07:00 UTC] --- Testing pf_bnbusd ---
-[2026-01-07 03:07:00 UTC] SKIPPING: pf_bnbusd (Size 0 too small)
-[2026-01-07 03:07:00 UTC] --- Testing pf_xrpusd ---
-[2026-01-07 03:07:00 UTC] Placing LIMIT BUY 51 @ 1.14
-[2026-01-07 03:07:00 UTC] SUCCESS: Order Placed. ID: a0c6c232-8615-4c88-9c7b-af9409c9ffc3
-[2026-01-07 03:07:01 UTC] Editing: Moving price to 1.15...
-[2026-01-07 03:07:01 UTC] WARNING: Edit response uncertain: {'result': 'success', 'serverTime': '2026-01-07T03:07:01.349Z', 'editStatus': {'status': 'edited', 'orderId': 'a0c6c232-8615-4c88-9c7b-af9409c9ffc3', 'receivedTime': '2026-01-07T03:07:01.349Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c6c232-8615-4c88-9c7b-af9409c9ffc3', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_XRPUSD', 'side': 'buy', 'quantity': 51, 'filled': 0, 'limitPrice': 1.14, 'reduceOnly': False, 'timestamp': '2026-01-07T03:07:00.597Z', 'lastUpdateTimestamp': '2026-01-07T03:07:00.597Z'}, 'new': {'orderId': 'a0c6c232-8615-4c88-9c7b-af9409c9ffc3', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_XRPUSD', 'side': 'buy', 'quantity': 51, 'filled': 0, 'limitPrice': 1.15, 'reduceOnly': False, 'timestamp': '2026-01-07T03:07:00.597Z', 'lastUpdateTimestamp': '2026-01-07T03:07:01.349Z'}, 'reducedQuantity': None}]}}
-[2026-01-07 03:07:01 UTC] Cancelling Order a0c6c232-8615-4c88-9c7b-af9409c9ffc3...
-[2026-01-07 03:07:02 UTC] Cancel Response: {'result': 'success', 'serverTime': '2026-01-07T03:07:02.120Z', 'cancelStatus': {'status': 'cancelled', 'order_id': 'a0c6c232-8615-4c88-9c7b-af9409c9ffc3', 'receivedTime': '2026-01-07T03:07:02.102Z', 'orderEvents': [{'type': 'CANCEL', 'uid': 'a0c6c232-8615-4c88-9c7b-af9409c9ffc3', 'order': {'orderId': 'a0c6c232-8615-4c88-9c7b-af9409c9ffc3', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_XRPUSD', 'side': 'buy', 'quantity': 51, 'filled': 0, 'limitPrice': 1.15, 'reduceOnly': False, 'timestamp': '2026-01-07T03:07:00.597Z', 'lastUpdateTimestamp': '2026-01-07T03:07:01.349Z'}}]}}
-[2026-01-07 03:07:02 UTC] --- Testing pf_adausd ---
-[2026-01-07 03:07:02 UTC] Placing LIMIT BUY 280 @ 0.21
-[2026-01-07 03:07:02 UTC] SUCCESS: Order Placed. ID: a0c6c235-9121-432c-9ce7-84a1c8051f14
-[2026-01-07 03:07:03 UTC] Editing: Moving price to 0.21...
-[2026-01-07 03:07:03 UTC] WARNING: Edit response uncertain: {'result': 'success', 'serverTime': '2026-01-07T03:07:03.341Z', 'editStatus': {'status': 'edited', 'orderId': 'a0c6c235-9121-432c-9ce7-84a1c8051f14', 'receivedTime': '2026-01-07T03:07:03.340Z', 'orderEvents': []}}
-[2026-01-07 03:07:03 UTC] Cancelling Order a0c6c235-9121-432c-9ce7-84a1c8051f14...
-[2026-01-07 03:07:04 UTC] Cancel Response: {'result': 'success', 'serverTime': '2026-01-07T03:07:04.085Z', 'cancelStatus': {'status': 'cancelled', 'order_id': 'a0c6c235-9121-432c-9ce7-84a1c8051f14', 'receivedTime': '2026-01-07T03:07:04.085Z', 'orderEvents': [{'type': 'CANCEL', 'uid': 'a0c6c235-9121-432c-9ce7-84a1c8051f14', 'order': {'orderId': 'a0c6c235-9121-432c-9ce7-84a1c8051f14', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_ADAUSD', 'side': 'buy', 'quantity': 280, 'filled': 0, 'limitPrice': 0.21, 'reduceOnly': False, 'timestamp': '2026-01-07T03:07:02.592Z', 'lastUpdateTimestamp': '2026-01-07T03:07:02.592Z'}}]}}
-[2026-01-07 03:07:04 UTC] --- Testing pf_dogeusd ---
-[2026-01-07 03:07:04 UTC] Placing LIMIT BUY 780 @ 0.07
-[2026-01-07 03:07:04 UTC] SUCCESS: Order Placed. ID: a0c6c238-9d5d-4170-b3c9-23e5f64efd62
-[2026-01-07 03:07:05 UTC] Editing: Moving price to 0.07...
-[2026-01-07 03:07:05 UTC] WARNING: Edit response uncertain: {'result': 'success', 'serverTime': '2026-01-07T03:07:05.335Z', 'editStatus': {'status': 'edited', 'orderId': 'a0c6c238-9d5d-4170-b3c9-23e5f64efd62', 'receivedTime': '2026-01-07T03:07:05.334Z', 'orderEvents': []}}
-[2026-01-07 03:07:05 UTC] Cancelling Order a0c6c238-9d5d-4170-b3c9-23e5f64efd62...
-[2026-01-07 03:07:06 UTC] Cancel Response: {'result': 'success', 'serverTime': '2026-01-07T03:07:06.085Z', 'cancelStatus': {'status': 'cancelled', 'order_id': 'a0c6c238-9d5d-4170-b3c9-23e5f64efd62', 'receivedTime': '2026-01-07T03:07:06.085Z', 'orderEvents': [{'type': 'CANCEL', 'uid': 'a0c6c238-9d5d-4170-b3c9-23e5f64efd62', 'order': {'orderId': 'a0c6c238-9d5d-4170-b3c9-23e5f64efd62', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_DOGEUSD', 'side': 'buy', 'quantity': 780, 'filled': 0, 'limitPrice': 0.07, 'reduceOnly': False, 'timestamp': '2026-01-07T03:07:04.589Z', 'lastUpdateTimestamp': '2026-01-07T03:07:04.589Z'}}]}}
-[2026-01-07 03:07:06 UTC] --- Testing pf_avaxusd ---
-[2026-01-07 03:07:06 UTC] Placing LIMIT BUY 8 @ 7.25
-[2026-01-07 03:07:06 UTC] SUCCESS: Order Placed. ID: a0c6c23b-acdb-4427-93e0-fca3387dcf0f
-[2026-01-07 03:07:07 UTC] Editing: Moving price to 7.32...
-[2026-01-07 03:07:07 UTC] WARNING: Edit response uncertain: {'result': 'success', 'serverTime': '2026-01-07T03:07:07.403Z', 'editStatus': {'status': 'edited', 'orderId': 'a0c6c23b-acdb-4427-93e0-fca3387dcf0f', 'receivedTime': '2026-01-07T03:07:07.403Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c6c23b-acdb-4427-93e0-fca3387dcf0f', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_AVAXUSD', 'side': 'buy', 'quantity': 8, 'filled': 0, 'limitPrice': 7.25, 'reduceOnly': False, 'timestamp': '2026-01-07T03:07:06.595Z', 'lastUpdateTimestamp': '2026-01-07T03:07:06.595Z'}, 'new': {'orderId': 'a0c6c23b-acdb-4427-93e0-fca3387dcf0f', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_AVAXUSD', 'side': 'buy', 'quantity': 8, 'filled': 0, 'limitPrice': 7.32, 'reduceOnly': False, 'timestamp': '2026-01-07T03:07:06.595Z', 'lastUpdateTimestamp': '2026-01-07T03:07:07.403Z'}, 'reducedQuantity': None}]}}
-[2026-01-07 03:07:08 UTC] Cancelling Order a0c6c23b-acdb-4427-93e0-fca3387dcf0f...
-[2026-01-07 03:07:08 UTC] Cancel Response: {'result': 'success', 'serverTime': '2026-01-07T03:07:08.208Z', 'cancelStatus': {'status': 'cancelled', 'order_id': 'a0c6c23b-acdb-4427-93e0-fca3387dcf0f', 'receivedTime': '2026-01-07T03:07:08.208Z', 'orderEvents': [{'type': 'CANCEL', 'uid': 'a0c6c23b-acdb-4427-93e0-fca3387dcf0f', 'order': {'orderId': 'a0c6c23b-acdb-4427-93e0-fca3387dcf0f', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_AVAXUSD', 'side': 'buy', 'quantity': 8, 'filled': 0, 'limitPrice': 7.32, 'reduceOnly': False, 'timestamp': '2026-01-07T03:07:06.595Z', 'lastUpdateTimestamp': '2026-01-07T03:07:07.403Z'}}]}}
-[2026-01-07 03:07:08 UTC] --- Testing pf_dotusd ---
-[2026-01-07 03:07:08 UTC] Placing LIMIT BUY 53 @ 1.1
-[2026-01-07 03:07:08 UTC] SUCCESS: Order Placed. ID: a0c6c23e-eb92-4032-92cf-6e20a52a8cd6
-[2026-01-07 03:07:09 UTC] Editing: Moving price to 1.11...
-[2026-01-07 03:07:09 UTC] WARNING: Edit response uncertain: {'result': 'success', 'serverTime': '2026-01-07T03:07:09.463Z', 'editStatus': {'status': 'edited', 'orderId': 'a0c6c23e-eb92-4032-92cf-6e20a52a8cd6', 'receivedTime': '2026-01-07T03:07:09.463Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c6c23e-eb92-4032-92cf-6e20a52a8cd6', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_DOTUSD', 'side': 'buy', 'quantity': 53, 'filled': 0, 'limitPrice': 1.1, 'reduceOnly': False, 'timestamp': '2026-01-07T03:07:08.722Z', 'lastUpdateTimestamp': '2026-01-07T03:07:08.722Z'}, 'new': {'orderId': 'a0c6c23e-eb92-4032-92cf-6e20a52a8cd6', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_DOTUSD', 'side': 'buy', 'quantity': 53, 'filled': 0, 'limitPrice': 1.11, 'reduceOnly': False, 'timestamp': '2026-01-07T03:07:08.722Z', 'lastUpdateTimestamp': '2026-01-07T03:07:09.463Z'}, 'reducedQuantity': None}]}}
-[2026-01-07 03:07:10 UTC] Cancelling Order a0c6c23e-eb92-4032-92cf-6e20a52a8cd6...
-[2026-01-07 03:07:10 UTC] Cancel Response: {'result': 'success', 'serverTime': '2026-01-07T03:07:10.206Z', 'cancelStatus': {'status': 'cancelled', 'order_id': 'a0c6c23e-eb92-4032-92cf-6e20a52a8cd6', 'receivedTime': '2026-01-07T03:07:10.206Z', 'orderEvents': [{'type': 'CANCEL', 'uid': 'a0c6c23e-eb92-4032-92cf-6e20a52a8cd6', 'order': {'orderId': 'a0c6c23e-eb92-4032-92cf-6e20a52a8cd6', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_DOTUSD', 'side': 'buy', 'quantity': 53, 'filled': 0, 'limitPrice': 1.11, 'reduceOnly': False, 'timestamp': '2026-01-07T03:07:08.722Z', 'lastUpdateTimestamp': '2026-01-07T03:07:09.463Z'}}]}}
-[2026-01-07 03:07:10 UTC] --- Testing pf_linkusd ---
-[2026-01-07 03:07:10 UTC] Placing LIMIT BUY 8 @ 6.93
-[2026-01-07 03:07:10 UTC] SUCCESS: Order Placed. ID: a0c6c242-0e71-44c3-a1cb-83ac5349ae0f
-[2026-01-07 03:07:11 UTC] Editing: Moving price to 7.0...
-[2026-01-07 03:07:11 UTC] WARNING: Edit response uncertain: {'result': 'success', 'serverTime': '2026-01-07T03:07:11.597Z', 'editStatus': {'status': 'edited', 'orderId': 'a0c6c242-0e71-44c3-a1cb-83ac5349ae0f', 'receivedTime': '2026-01-07T03:07:11.597Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c6c242-0e71-44c3-a1cb-83ac5349ae0f', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_LINKUSD', 'side': 'buy', 'quantity': 8, 'filled': 0, 'limitPrice': 6.93, 'reduceOnly': False, 'timestamp': '2026-01-07T03:07:10.777Z', 'lastUpdateTimestamp': '2026-01-07T03:07:10.777Z'}, 'new': {'orderId': 'a0c6c242-0e71-44c3-a1cb-83ac5349ae0f', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_LINKUSD', 'side': 'buy', 'quantity': 8, 'filled': 0, 'limitPrice': 7.0, 'reduceOnly': False, 'timestamp': '2026-01-07T03:07:10.777Z', 'lastUpdateTimestamp': '2026-01-07T03:07:11.597Z'}, 'reducedQuantity': None}]}}
-[2026-01-07 03:07:12 UTC] Cancelling Order a0c6c242-0e71-44c3-a1cb-83ac5349ae0f...
-[2026-01-07 03:07:12 UTC] Cancel Response: {'result': 'success', 'serverTime': '2026-01-07T03:07:12.339Z', 'cancelStatus': {'status': 'cancelled', 'order_id': 'a0c6c242-0e71-44c3-a1cb-83ac5349ae0f', 'receivedTime': '2026-01-07T03:07:12.339Z', 'orderEvents': [{'type': 'CANCEL', 'uid': 'a0c6c242-0e71-44c3-a1cb-83ac5349ae0f', 'order': {'orderId': 'a0c6c242-0e71-44c3-a1cb-83ac5349ae0f', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_LINKUSD', 'side': 'buy', 'quantity': 8, 'filled': 0, 'limitPrice': 7.0, 'reduceOnly': False, 'timestamp': '2026-01-07T03:07:10.777Z', 'lastUpdateTimestamp': '2026-01-07T03:07:11.597Z'}}]}}
-[2026-01-07 03:07:12 UTC] 4. Uploading Results to GitHub...
+[2026-01-07 03:34:03 UTC] --- STARTING STRESS TEST (Blind Execution Mode) ---
+[2026-01-07 03:34:03 UTC] Fetching Instrument Specifications...
+[2026-01-07 03:34:03 UTC] Success: Loaded specs for 338 instruments.
+[2026-01-07 03:34:03 UTC] 1. Testing Account API & Fetching Equity...
+[2026-01-07 03:34:03 UTC] SUCCESS: Margin Equity retrieved: $579.45
+[2026-01-07 03:34:04 UTC] 2. Logging Open Positions & Orders (Informational)...
+[2026-01-07 03:34:04 UTC] Open Positions: 1
+[2026-01-07 03:34:04 UTC] Open Orders: 4
+[2026-01-07 03:34:04 UTC] 3. Testing Order Execution (Place -> Edit -> Cancel)...
+[2026-01-07 03:34:04 UTC] Calculated Test Unit Size: $115.89
+[2026-01-07 03:34:04 UTC] --- Testing ff_xbtusd_260327 ---
+[2026-01-07 03:34:04 UTC] SKIPPING: ff_xbtusd_260327 (Size 0 too small)
+[2026-01-07 03:34:05 UTC] --- Testing pf_ethusd ---
+[2026-01-07 03:34:05 UTC] SKIPPING: pf_ethusd (Size 0 too small)
+[2026-01-07 03:34:05 UTC] --- Testing pf_solusd ---
+[2026-01-07 03:34:05 UTC] Placing LIMIT BUY 1 @ 69.89
+[2026-01-07 03:34:05 UTC] SUCCESS: Order Placed. ID: a0c6cbe2-0afd-419d-bd93-eb7e929a4d61
+[2026-01-07 03:34:06 UTC] Editing: Moving price to 70.59...
+[2026-01-07 03:34:06 UTC] WARNING: Edit response uncertain: {'result': 'success', 'serverTime': '2026-01-07T03:34:06.323Z', 'editStatus': {'status': 'edited', 'orderId': 'a0c6cbe2-0afd-419d-bd93-eb7e929a4d61', 'receivedTime': '2026-01-07T03:34:06.323Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c6cbe2-0afd-419d-bd93-eb7e929a4d61', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_SOLUSD', 'side': 'buy', 'quantity': 1, 'filled': 0, 'limitPrice': 69.89, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:05.575Z', 'lastUpdateTimestamp': '2026-01-07T03:34:05.575Z'}, 'new': {'orderId': 'a0c6cbe2-0afd-419d-bd93-eb7e929a4d61', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_SOLUSD', 'side': 'buy', 'quantity': 1, 'filled': 0, 'limitPrice': 70.59, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:05.575Z', 'lastUpdateTimestamp': '2026-01-07T03:34:06.323Z'}, 'reducedQuantity': None}]}}
+[2026-01-07 03:34:06 UTC] Cancelling Order a0c6cbe2-0afd-419d-bd93-eb7e929a4d61...
+[2026-01-07 03:34:07 UTC] Cancel Response: {'result': 'success', 'serverTime': '2026-01-07T03:34:07.069Z', 'cancelStatus': {'status': 'cancelled', 'order_id': 'a0c6cbe2-0afd-419d-bd93-eb7e929a4d61', 'receivedTime': '2026-01-07T03:34:07.069Z', 'orderEvents': [{'type': 'CANCEL', 'uid': 'a0c6cbe2-0afd-419d-bd93-eb7e929a4d61', 'order': {'orderId': 'a0c6cbe2-0afd-419d-bd93-eb7e929a4d61', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_SOLUSD', 'side': 'buy', 'quantity': 1, 'filled': 0, 'limitPrice': 70.59, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:05.575Z', 'lastUpdateTimestamp': '2026-01-07T03:34:06.323Z'}}]}}
+[2026-01-07 03:34:07 UTC] --- Testing pf_bnbusd ---
+[2026-01-07 03:34:07 UTC] SKIPPING: pf_bnbusd (Size 0 too small)
+[2026-01-07 03:34:07 UTC] --- Testing pf_xrpusd ---
+[2026-01-07 03:34:07 UTC] Placing LIMIT BUY 51 @ 1.13
+[2026-01-07 03:34:07 UTC] SUCCESS: Order Placed. ID: a0c6cbe5-90a0-4309-bfc9-c55036b903ae
+[2026-01-07 03:34:08 UTC] Editing: Moving price to 1.14...
+[2026-01-07 03:34:08 UTC] WARNING: Edit response uncertain: {'result': 'success', 'serverTime': '2026-01-07T03:34:08.628Z', 'editStatus': {'status': 'edited', 'orderId': 'a0c6cbe5-90a0-4309-bfc9-c55036b903ae', 'receivedTime': '2026-01-07T03:34:08.628Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c6cbe5-90a0-4309-bfc9-c55036b903ae', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_XRPUSD', 'side': 'buy', 'quantity': 51, 'filled': 0, 'limitPrice': 1.13, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:07.883Z', 'lastUpdateTimestamp': '2026-01-07T03:34:07.883Z'}, 'new': {'orderId': 'a0c6cbe5-90a0-4309-bfc9-c55036b903ae', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_XRPUSD', 'side': 'buy', 'quantity': 51, 'filled': 0, 'limitPrice': 1.14, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:07.883Z', 'lastUpdateTimestamp': '2026-01-07T03:34:08.628Z'}, 'reducedQuantity': None}]}}
+[2026-01-07 03:34:09 UTC] Cancelling Order a0c6cbe5-90a0-4309-bfc9-c55036b903ae...
+[2026-01-07 03:34:09 UTC] Cancel Response: {'result': 'success', 'serverTime': '2026-01-07T03:34:09.374Z', 'cancelStatus': {'status': 'cancelled', 'order_id': 'a0c6cbe5-90a0-4309-bfc9-c55036b903ae', 'receivedTime': '2026-01-07T03:34:09.373Z', 'orderEvents': [{'type': 'CANCEL', 'uid': 'a0c6cbe5-90a0-4309-bfc9-c55036b903ae', 'order': {'orderId': 'a0c6cbe5-90a0-4309-bfc9-c55036b903ae', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_XRPUSD', 'side': 'buy', 'quantity': 51, 'filled': 0, 'limitPrice': 1.14, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:07.883Z', 'lastUpdateTimestamp': '2026-01-07T03:34:08.628Z'}}]}}
+[2026-01-07 03:34:09 UTC] --- Testing pf_adausd ---
+[2026-01-07 03:34:09 UTC] Placing LIMIT BUY 281 @ 0.21
+[2026-01-07 03:34:09 UTC] SUCCESS: Order Placed. ID: a0c6cbe8-84e9-4f8f-9fa9-3f38868ef961
+[2026-01-07 03:34:10 UTC] Editing: Moving price to 0.21...
+[2026-01-07 03:34:10 UTC] WARNING: Edit response uncertain: {'result': 'success', 'serverTime': '2026-01-07T03:34:10.562Z', 'editStatus': {'status': 'edited', 'orderId': 'a0c6cbe8-84e9-4f8f-9fa9-3f38868ef961', 'receivedTime': '2026-01-07T03:34:10.562Z', 'orderEvents': []}}
+[2026-01-07 03:34:11 UTC] Cancelling Order a0c6cbe8-84e9-4f8f-9fa9-3f38868ef961...
+[2026-01-07 03:34:11 UTC] Cancel Response: {'result': 'success', 'serverTime': '2026-01-07T03:34:11.323Z', 'cancelStatus': {'status': 'cancelled', 'order_id': 'a0c6cbe8-84e9-4f8f-9fa9-3f38868ef961', 'receivedTime': '2026-01-07T03:34:11.300Z', 'orderEvents': [{'type': 'CANCEL', 'uid': 'a0c6cbe8-84e9-4f8f-9fa9-3f38868ef961', 'order': {'orderId': 'a0c6cbe8-84e9-4f8f-9fa9-3f38868ef961', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_ADAUSD', 'side': 'buy', 'quantity': 281, 'filled': 0, 'limitPrice': 0.21, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:09.819Z', 'lastUpdateTimestamp': '2026-01-07T03:34:09.819Z'}}]}}
+[2026-01-07 03:34:11 UTC] --- Testing pf_dogeusd ---
+[2026-01-07 03:34:11 UTC] Placing LIMIT BUY 779 @ 0.07
+[2026-01-07 03:34:11 UTC] SUCCESS: Order Placed. ID: a0c6cbeb-7f28-40c3-8ea2-206d90e8c685
+[2026-01-07 03:34:12 UTC] Editing: Moving price to 0.07...
+[2026-01-07 03:34:13 UTC] WARNING: Edit response uncertain: {'result': 'success', 'serverTime': '2026-01-07T03:34:12.907Z', 'editStatus': {'status': 'edited', 'orderId': 'a0c6cbeb-7f28-40c3-8ea2-206d90e8c685', 'receivedTime': '2026-01-07T03:34:12.907Z', 'orderEvents': []}}
+[2026-01-07 03:34:13 UTC] Cancelling Order a0c6cbeb-7f28-40c3-8ea2-206d90e8c685...
+[2026-01-07 03:34:14 UTC] Cancel Response: {'result': 'success', 'serverTime': '2026-01-07T03:34:14.250Z', 'cancelStatus': {'status': 'cancelled', 'order_id': 'a0c6cbeb-7f28-40c3-8ea2-206d90e8c685', 'receivedTime': '2026-01-07T03:34:14.250Z', 'orderEvents': [{'type': 'CANCEL', 'uid': 'a0c6cbeb-7f28-40c3-8ea2-206d90e8c685', 'order': {'orderId': 'a0c6cbeb-7f28-40c3-8ea2-206d90e8c685', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_DOGEUSD', 'side': 'buy', 'quantity': 779, 'filled': 0, 'limitPrice': 0.07, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:11.771Z', 'lastUpdateTimestamp': '2026-01-07T03:34:11.771Z'}}]}}
+[2026-01-07 03:34:14 UTC] --- Testing pf_avaxusd ---
+[2026-01-07 03:34:14 UTC] Placing LIMIT BUY 8 @ 7.24
+[2026-01-07 03:34:14 UTC] SUCCESS: Order Placed. ID: a0c6cbf0-2693-45df-bbe7-41de13d339b5
+[2026-01-07 03:34:15 UTC] Editing: Moving price to 7.31...
+[2026-01-07 03:34:15 UTC] WARNING: Edit response uncertain: {'result': 'success', 'serverTime': '2026-01-07T03:34:15.577Z', 'editStatus': {'status': 'edited', 'orderId': 'a0c6cbf0-2693-45df-bbe7-41de13d339b5', 'receivedTime': '2026-01-07T03:34:15.568Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c6cbf0-2693-45df-bbe7-41de13d339b5', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_AVAXUSD', 'side': 'buy', 'quantity': 8, 'filled': 0, 'limitPrice': 7.24, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:14.821Z', 'lastUpdateTimestamp': '2026-01-07T03:34:14.821Z'}, 'new': {'orderId': 'a0c6cbf0-2693-45df-bbe7-41de13d339b5', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_AVAXUSD', 'side': 'buy', 'quantity': 8, 'filled': 0, 'limitPrice': 7.31, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:14.821Z', 'lastUpdateTimestamp': '2026-01-07T03:34:15.568Z'}, 'reducedQuantity': None}]}}
+[2026-01-07 03:34:16 UTC] Cancelling Order a0c6cbf0-2693-45df-bbe7-41de13d339b5...
+[2026-01-07 03:34:16 UTC] Cancel Response: {'result': 'success', 'serverTime': '2026-01-07T03:34:16.327Z', 'cancelStatus': {'status': 'cancelled', 'order_id': 'a0c6cbf0-2693-45df-bbe7-41de13d339b5', 'receivedTime': '2026-01-07T03:34:16.327Z', 'orderEvents': [{'type': 'CANCEL', 'uid': 'a0c6cbf0-2693-45df-bbe7-41de13d339b5', 'order': {'orderId': 'a0c6cbf0-2693-45df-bbe7-41de13d339b5', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_AVAXUSD', 'side': 'buy', 'quantity': 8, 'filled': 0, 'limitPrice': 7.31, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:14.821Z', 'lastUpdateTimestamp': '2026-01-07T03:34:15.568Z'}}]}}
+[2026-01-07 03:34:16 UTC] --- Testing pf_dotusd ---
+[2026-01-07 03:34:16 UTC] Placing LIMIT BUY 53 @ 1.09
+[2026-01-07 03:34:16 UTC] SUCCESS: Order Placed. ID: a0c6cbf3-4d89-4317-a3ff-b8aafed59baf
+[2026-01-07 03:34:17 UTC] Editing: Moving price to 1.1...
+[2026-01-07 03:34:17 UTC] WARNING: Edit response uncertain: {'result': 'success', 'serverTime': '2026-01-07T03:34:17.635Z', 'editStatus': {'status': 'edited', 'orderId': 'a0c6cbf3-4d89-4317-a3ff-b8aafed59baf', 'receivedTime': '2026-01-07T03:34:17.635Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c6cbf3-4d89-4317-a3ff-b8aafed59baf', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_DOTUSD', 'side': 'buy', 'quantity': 53, 'filled': 0, 'limitPrice': 1.09, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:16.887Z', 'lastUpdateTimestamp': '2026-01-07T03:34:16.887Z'}, 'new': {'orderId': 'a0c6cbf3-4d89-4317-a3ff-b8aafed59baf', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_DOTUSD', 'side': 'buy', 'quantity': 53, 'filled': 0, 'limitPrice': 1.1, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:16.887Z', 'lastUpdateTimestamp': '2026-01-07T03:34:17.635Z'}, 'reducedQuantity': None}]}}
+[2026-01-07 03:34:18 UTC] Cancelling Order a0c6cbf3-4d89-4317-a3ff-b8aafed59baf...
+[2026-01-07 03:34:18 UTC] Cancel Response: {'result': 'success', 'serverTime': '2026-01-07T03:34:18.387Z', 'cancelStatus': {'status': 'cancelled', 'order_id': 'a0c6cbf3-4d89-4317-a3ff-b8aafed59baf', 'receivedTime': '2026-01-07T03:34:18.386Z', 'orderEvents': [{'type': 'CANCEL', 'uid': 'a0c6cbf3-4d89-4317-a3ff-b8aafed59baf', 'order': {'orderId': 'a0c6cbf3-4d89-4317-a3ff-b8aafed59baf', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_DOTUSD', 'side': 'buy', 'quantity': 53, 'filled': 0, 'limitPrice': 1.1, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:16.887Z', 'lastUpdateTimestamp': '2026-01-07T03:34:17.635Z'}}]}}
+[2026-01-07 03:34:18 UTC] --- Testing pf_linkusd ---
+[2026-01-07 03:34:18 UTC] Placing LIMIT BUY 8 @ 6.91
+[2026-01-07 03:34:18 UTC] SUCCESS: Order Placed. ID: a0c6cbf6-68e4-4c49-8cd5-ee7539f94c11
+[2026-01-07 03:34:19 UTC] Editing: Moving price to 6.98...
+[2026-01-07 03:34:20 UTC] WARNING: Edit response uncertain: {'result': 'success', 'serverTime': '2026-01-07T03:34:19.669Z', 'editStatus': {'status': 'edited', 'orderId': 'a0c6cbf6-68e4-4c49-8cd5-ee7539f94c11', 'receivedTime': '2026-01-07T03:34:19.669Z', 'orderEvents': [{'type': 'EDIT', 'old': {'orderId': 'a0c6cbf6-68e4-4c49-8cd5-ee7539f94c11', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_LINKUSD', 'side': 'buy', 'quantity': 8, 'filled': 0, 'limitPrice': 6.91, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:18.923Z', 'lastUpdateTimestamp': '2026-01-07T03:34:18.923Z'}, 'new': {'orderId': 'a0c6cbf6-68e4-4c49-8cd5-ee7539f94c11', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_LINKUSD', 'side': 'buy', 'quantity': 8, 'filled': 0, 'limitPrice': 6.98, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:18.923Z', 'lastUpdateTimestamp': '2026-01-07T03:34:19.669Z'}, 'reducedQuantity': None}]}}
+[2026-01-07 03:34:20 UTC] Cancelling Order a0c6cbf6-68e4-4c49-8cd5-ee7539f94c11...
+[2026-01-07 03:34:20 UTC] Cancel Response: {'result': 'success', 'serverTime': '2026-01-07T03:34:20.780Z', 'cancelStatus': {'status': 'cancelled', 'order_id': 'a0c6cbf6-68e4-4c49-8cd5-ee7539f94c11', 'receivedTime': '2026-01-07T03:34:20.780Z', 'orderEvents': [{'type': 'CANCEL', 'uid': 'a0c6cbf6-68e4-4c49-8cd5-ee7539f94c11', 'order': {'orderId': 'a0c6cbf6-68e4-4c49-8cd5-ee7539f94c11', 'cliOrdId': None, 'type': 'lmt', 'symbol': 'PF_LINKUSD', 'side': 'buy', 'quantity': 8, 'filled': 0, 'limitPrice': 6.98, 'reduceOnly': False, 'timestamp': '2026-01-07T03:34:18.923Z', 'lastUpdateTimestamp': '2026-01-07T03:34:19.669Z'}}]}}
+[2026-01-07 03:34:20 UTC] 4. Uploading Results to GitHub...

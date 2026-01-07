@@ -1,34 +1,50 @@
 {
   "asset": "XRPUSDT",
   "timeframe": "1d",
-  "timestamp": "2026-01-06T05:49:53.458535",
-  "data_points": 2198,
-  "combined_accuracy": 59.09090909090909,
-  "combined_trades": 66,
+  "timestamp": "2026-01-07T15:06:14.076638",
+  "data_points": 2199,
+  "combined_accuracy": 64.42953020134227,
+  "combined_trades": 149,
   "strategy_union": [
-    {
-      "bucket_count": 10,
-      "bucket_size": 0.341491,
-      "seq_len": 5,
-      "model_type": "Derivative",
-      "accuracy": 77.27272727272727,
-      "trades": 22
-    },
     {
       "bucket_count": 10,
       "bucket_size": 0.341491,
       "seq_len": 6,
       "model_type": "Combined",
-      "accuracy": 76.66666666666667,
-      "trades": 30
+      "accuracy": 72.0,
+      "trades": 25
     },
     {
-      "bucket_count": 25,
-      "bucket_size": 0.1365964,
-      "seq_len": 4,
+      "bucket_count": 10,
+      "bucket_size": 0.341491,
+      "seq_len": 8,
+      "model_type": "Combined",
+      "accuracy": 64.28571428571429,
+      "trades": 42
+    },
+    {
+      "bucket_count": 20,
+      "bucket_size": 0.1707455,
+      "seq_len": 5,
       "model_type": "Derivative",
-      "accuracy": 60.0,
-      "trades": 80
+      "accuracy": 62.0,
+      "trades": 50
+    },
+    {
+      "bucket_count": 50,
+      "bucket_size": 0.0682982,
+      "seq_len": 3,
+      "model_type": "Combined",
+      "accuracy": 58.69565217391305,
+      "trades": 92
+    },
+    {
+      "bucket_count": 20,
+      "bucket_size": 0.1707455,
+      "seq_len": 8,
+      "model_type": "Derivative",
+      "accuracy": 57.95454545454546,
+      "trades": 88
     }
   ]
 }

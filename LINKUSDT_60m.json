@@ -1,34 +1,50 @@
 {
   "asset": "LINKUSDT",
   "timeframe": "60m",
-  "timestamp": "2026-01-06T06:00:47.736940",
-  "data_points": 52702,
-  "combined_accuracy": 87.5,
-  "combined_trades": 136,
+  "timestamp": "2026-01-07T15:30:46.602293",
+  "data_points": 52736,
+  "combined_accuracy": 84.81012658227847,
+  "combined_trades": 158,
   "strategy_union": [
     {
-      "bucket_count": 25,
-      "bucket_size": 2.0284199999999997,
-      "seq_len": 5,
-      "model_type": "Absolute",
-      "accuracy": 97.77777777777777,
-      "trades": 45
-    },
-    {
-      "bucket_count": 25,
-      "bucket_size": 2.0284199999999997,
+      "bucket_count": 20,
+      "bucket_size": 2.535525,
       "seq_len": 6,
       "model_type": "Absolute",
-      "accuracy": 87.5,
-      "trades": 80
+      "accuracy": 84.78260869565217,
+      "trades": 46
     },
     {
-      "bucket_count": 25,
-      "bucket_size": 2.0284199999999997,
+      "bucket_count": 40,
+      "bucket_size": 1.2677625,
+      "seq_len": 5,
+      "model_type": "Absolute",
+      "accuracy": 80.85106382978722,
+      "trades": 47
+    },
+    {
+      "bucket_count": 50,
+      "bucket_size": 1.0142099999999998,
+      "seq_len": 6,
+      "model_type": "Combined",
+      "accuracy": 78.78787878787878,
+      "trades": 33
+    },
+    {
+      "bucket_count": 50,
+      "bucket_size": 1.0142099999999998,
+      "seq_len": 4,
+      "model_type": "Absolute",
+      "accuracy": 77.96610169491525,
+      "trades": 59
+    },
+    {
+      "bucket_count": 40,
+      "bucket_size": 1.2677625,
       "seq_len": 8,
       "model_type": "Combined",
-      "accuracy": 87.09677419354838,
-      "trades": 31
+      "accuracy": 76.92307692307693,
+      "trades": 39
     }
   ]
 }

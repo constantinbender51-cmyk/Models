@@ -1,10 +1,10 @@
 {
   "asset": "ETHUSDT",
   "timeframe": "15m",
-  "timestamp": "2026-01-06T05:43:11.436847",
-  "data_points": 210782,
-  "combined_accuracy": 95.34883720930233,
-  "combined_trades": 86,
+  "timestamp": "2026-01-07T14:50:09.635754",
+  "data_points": 210915,
+  "combined_accuracy": 86.03896103896103,
+  "combined_trades": 308,
   "strategy_union": [
     {
       "bucket_count": 10,
@@ -15,20 +15,36 @@
       "trades": 24
     },
     {
-      "bucket_count": 25,
-      "bucket_size": 194.18519999999998,
-      "seq_len": 4,
-      "model_type": "Absolute",
-      "accuracy": 94.44444444444444,
-      "trades": 36
+      "bucket_count": 30,
+      "bucket_size": 161.82099999999997,
+      "seq_len": 8,
+      "model_type": "Combined",
+      "accuracy": 87.5,
+      "trades": 24
     },
     {
-      "bucket_count": 10,
-      "bucket_size": 485.4629999999999,
-      "seq_len": 6,
+      "bucket_count": 40,
+      "bucket_size": 121.36574999999998,
+      "seq_len": 5,
       "model_type": "Absolute",
-      "accuracy": 90.9090909090909,
-      "trades": 33
+      "accuracy": 86.72566371681415,
+      "trades": 113
+    },
+    {
+      "bucket_count": 50,
+      "bucket_size": 97.09259999999999,
+      "seq_len": 5,
+      "model_type": "Absolute",
+      "accuracy": 84.9673202614379,
+      "trades": 153
+    },
+    {
+      "bucket_count": 50,
+      "bucket_size": 97.09259999999999,
+      "seq_len": 4,
+      "model_type": "Absolute",
+      "accuracy": 84.33734939759037,
+      "trades": 83
     }
   ]
 }

@@ -1,34 +1,50 @@
 {
   "asset": "BNBUSDT",
   "timeframe": "60m",
-  "timestamp": "2026-01-06T05:45:43.131722",
-  "data_points": 52702,
-  "combined_accuracy": 63.18407960199005,
-  "combined_trades": 201,
+  "timestamp": "2026-01-07T14:56:25.459114",
+  "data_points": 52735,
+  "combined_accuracy": 76.3975155279503,
+  "combined_trades": 161,
   "strategy_union": [
     {
-      "bucket_count": 25,
-      "bucket_size": 54.443788000000005,
-      "seq_len": 8,
+      "bucket_count": 20,
+      "bucket_size": 68.05473500000001,
+      "seq_len": 6,
       "model_type": "Combined",
-      "accuracy": 73.07692307692307,
-      "trades": 52
+      "accuracy": 81.81818181818183,
+      "trades": 22
     },
     {
-      "bucket_count": 50,
-      "bucket_size": 27.221894000000002,
+      "bucket_count": 20,
+      "bucket_size": 68.05473500000001,
       "seq_len": 8,
       "model_type": "Derivative",
-      "accuracy": 64.74358974358975,
-      "trades": 156
+      "accuracy": 79.3103448275862,
+      "trades": 29
     },
     {
-      "bucket_count": 75,
-      "bucket_size": 18.147929333333334,
-      "seq_len": 4,
+      "bucket_count": 110,
+      "bucket_size": 12.373588181818183,
+      "seq_len": 3,
       "model_type": "Derivative",
-      "accuracy": 62.96296296296296,
-      "trades": 81
+      "accuracy": 74.0,
+      "trades": 50
+    },
+    {
+      "bucket_count": 80,
+      "bucket_size": 17.013683750000002,
+      "seq_len": 4,
+      "model_type": "Combined",
+      "accuracy": 66.66666666666666,
+      "trades": 66
+    },
+    {
+      "bucket_count": 70,
+      "bucket_size": 19.44421,
+      "seq_len": 4,
+      "model_type": "Combined",
+      "accuracy": 66.10169491525424,
+      "trades": 59
     }
   ]
 }

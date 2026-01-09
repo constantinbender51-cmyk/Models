@@ -1,11 +1,35 @@
 {
   "asset": "ADAUSDT",
   "timeframe": "15m",
-  "timestamp": "2026-01-07T15:10:00.442599",
-  "data_points": 210916,
-  "combined_accuracy": 90.2621722846442,
-  "combined_trades": 267,
+  "timestamp": "2026-01-09T17:29:30.477133",
+  "data_points": 210280,
+  "combined_accuracy": 95.41666666666667,
+  "combined_trades": 240,
   "strategy_union": [
+    {
+      "bucket_count": 20,
+      "bucket_size": 0.15382500000000002,
+      "seq_len": 5,
+      "model_type": "Absolute",
+      "accuracy": 96.42857142857143,
+      "trades": 28
+    },
+    {
+      "bucket_count": 70,
+      "bucket_size": 0.04395,
+      "seq_len": 4,
+      "model_type": "Absolute",
+      "accuracy": 93.83561643835617,
+      "trades": 146
+    },
+    {
+      "bucket_count": 70,
+      "bucket_size": 0.04395,
+      "seq_len": 3,
+      "model_type": "Absolute",
+      "accuracy": 92.3076923076923,
+      "trades": 52
+    },
     {
       "bucket_count": 40,
       "bucket_size": 0.07691250000000001,
@@ -15,36 +39,12 @@
       "trades": 37
     },
     {
-      "bucket_count": 70,
-      "bucket_size": 0.04395,
-      "seq_len": 4,
+      "bucket_count": 80,
+      "bucket_size": 0.038456250000000004,
+      "seq_len": 3,
       "model_type": "Absolute",
-      "accuracy": 91.56626506024097,
-      "trades": 83
-    },
-    {
-      "bucket_count": 40,
-      "bucket_size": 0.07691250000000001,
-      "seq_len": 4,
-      "model_type": "Absolute",
-      "accuracy": 91.30434782608695,
-      "trades": 46
-    },
-    {
-      "bucket_count": 30,
-      "bucket_size": 0.10255,
-      "seq_len": 5,
-      "model_type": "Absolute",
-      "accuracy": 87.67123287671232,
-      "trades": 73
-    },
-    {
-      "bucket_count": 40,
-      "bucket_size": 0.07691250000000001,
-      "seq_len": 5,
-      "model_type": "Absolute",
-      "accuracy": 86.48648648648648,
-      "trades": 74
+      "accuracy": 91.66666666666666,
+      "trades": 72
     }
   ]
 }

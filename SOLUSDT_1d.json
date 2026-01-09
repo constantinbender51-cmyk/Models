@@ -1,50 +1,50 @@
 {
   "asset": "SOLUSDT",
   "timeframe": "1d",
-  "timestamp": "2026-01-07T15:01:13.345520",
-  "data_points": 1976,
-  "combined_accuracy": 66.66666666666666,
-  "combined_trades": 231,
+  "timestamp": "2026-01-09T17:21:34.692658",
+  "data_points": 1970,
+  "combined_accuracy": 66.4804469273743,
+  "combined_trades": 179,
   "strategy_union": [
     {
       "bucket_count": 10,
       "bucket_size": 26.077200000000005,
       "seq_len": 5,
       "model_type": "Absolute",
-      "accuracy": 77.41935483870968,
-      "trades": 31
+      "accuracy": 71.875,
+      "trades": 32
     },
     {
       "bucket_count": 10,
       "bucket_size": 26.077200000000005,
       "seq_len": 8,
       "model_type": "Combined",
-      "accuracy": 65.38461538461539,
-      "trades": 26
+      "accuracy": 71.42857142857143,
+      "trades": 28
     },
     {
-      "bucket_count": 20,
-      "bucket_size": 13.038600000000002,
-      "seq_len": 8,
-      "model_type": "Combined",
-      "accuracy": 63.23529411764706,
-      "trades": 136
+      "bucket_count": 30,
+      "bucket_size": 8.692400000000001,
+      "seq_len": 5,
+      "model_type": "Derivative",
+      "accuracy": 60.747663551401864,
+      "trades": 107
     },
     {
       "bucket_count": 30,
       "bucket_size": 8.692400000000001,
       "seq_len": 6,
       "model_type": "Combined",
-      "accuracy": 58.44155844155844,
+      "accuracy": 59.74025974025974,
       "trades": 154
     },
     {
-      "bucket_count": 30,
-      "bucket_size": 8.692400000000001,
-      "seq_len": 5,
-      "model_type": "Combined",
-      "accuracy": 58.4070796460177,
-      "trades": 113
+      "bucket_count": 20,
+      "bucket_size": 13.038600000000002,
+      "seq_len": 6,
+      "model_type": "Derivative",
+      "accuracy": 57.57575757575758,
+      "trades": 66
     }
   ]
 }

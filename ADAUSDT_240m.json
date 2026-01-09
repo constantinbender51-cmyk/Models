@@ -1,50 +1,50 @@
 {
   "asset": "ADAUSDT",
   "timeframe": "240m",
-  "timestamp": "2026-01-07T15:11:23.498306",
-  "data_points": 13191,
-  "combined_accuracy": 68.1592039800995,
-  "combined_trades": 201,
+  "timestamp": "2026-01-09T17:30:45.925874",
+  "data_points": 13152,
+  "combined_accuracy": 76.63551401869158,
+  "combined_trades": 214,
   "strategy_union": [
-    {
-      "bucket_count": 70,
-      "bucket_size": 0.04322442857142857,
-      "seq_len": 3,
-      "model_type": "Absolute",
-      "accuracy": 69.76744186046511,
-      "trades": 86
-    },
-    {
-      "bucket_count": 80,
-      "bucket_size": 0.037821375000000004,
-      "seq_len": 3,
-      "model_type": "Derivative",
-      "accuracy": 69.56521739130434,
-      "trades": 23
-    },
-    {
-      "bucket_count": 70,
-      "bucket_size": 0.04322442857142857,
-      "seq_len": 4,
-      "model_type": "Absolute",
-      "accuracy": 68.67469879518072,
-      "trades": 166
-    },
     {
       "bucket_count": 20,
       "bucket_size": 0.15128550000000002,
-      "seq_len": 5,
+      "seq_len": 6,
       "model_type": "Absolute",
-      "accuracy": 68.18181818181817,
-      "trades": 22
+      "accuracy": 73.80952380952381,
+      "trades": 42
     },
     {
-      "bucket_count": 80,
-      "bucket_size": 0.037821375000000004,
+      "bucket_count": 50,
+      "bucket_size": 0.060514200000000004,
+      "seq_len": 3,
+      "model_type": "Absolute",
+      "accuracy": 73.13432835820896,
+      "trades": 67
+    },
+    {
+      "bucket_count": 50,
+      "bucket_size": 0.060514200000000004,
       "seq_len": 4,
-      "model_type": "Combined",
-      "accuracy": 68.18181818181817,
-      "trades": 44
+      "model_type": "Absolute",
+      "accuracy": 72.3404255319149,
+      "trades": 94
+    },
+    {
+      "bucket_count": 50,
+      "bucket_size": 0.060514200000000004,
+      "seq_len": 5,
+      "model_type": "Derivative",
+      "accuracy": 70.0,
+      "trades": 30
+    },
+    {
+      "bucket_count": 70,
+      "bucket_size": 0.04322442857142857,
+      "seq_len": 3,
+      "model_type": "Absolute",
+      "accuracy": 68.13186813186813,
+      "trades": 91
     }
   ]
 }

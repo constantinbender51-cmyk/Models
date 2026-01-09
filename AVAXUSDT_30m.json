@@ -1,50 +1,50 @@
 {
   "asset": "AVAXUSDT",
   "timeframe": "30m",
-  "timestamp": "2026-01-07T15:20:40.642444",
-  "data_points": 92757,
-  "combined_accuracy": 90.57591623036649,
-  "combined_trades": 191,
+  "timestamp": "2026-01-09T17:39:11.826925",
+  "data_points": 92439,
+  "combined_accuracy": 92.2279792746114,
+  "combined_trades": 193,
   "strategy_union": [
-    {
-      "bucket_count": 80,
-      "bucket_size": 1.77036375,
-      "seq_len": 4,
-      "model_type": "Absolute",
-      "accuracy": 88.88888888888889,
-      "trades": 45
-    },
-    {
-      "bucket_count": 60,
-      "bucket_size": 2.3604849999999997,
-      "seq_len": 4,
-      "model_type": "Absolute",
-      "accuracy": 88.0,
-      "trades": 25
-    },
     {
       "bucket_count": 110,
       "bucket_size": 1.2875372727272727,
       "seq_len": 4,
       "model_type": "Absolute",
-      "accuracy": 87.34177215189874,
-      "trades": 79
-    },
-    {
-      "bucket_count": 80,
-      "bucket_size": 1.77036375,
-      "seq_len": 8,
-      "model_type": "Combined",
-      "accuracy": 87.09677419354838,
-      "trades": 31
+      "accuracy": 90.9090909090909,
+      "trades": 77
     },
     {
       "bucket_count": 40,
       "bucket_size": 3.5407275,
       "seq_len": 6,
       "model_type": "Absolute",
-      "accuracy": 83.63636363636363,
-      "trades": 55
+      "accuracy": 87.5,
+      "trades": 48
+    },
+    {
+      "bucket_count": 80,
+      "bucket_size": 1.77036375,
+      "seq_len": 4,
+      "model_type": "Absolute",
+      "accuracy": 86.36363636363636,
+      "trades": 44
+    },
+    {
+      "bucket_count": 80,
+      "bucket_size": 1.77036375,
+      "seq_len": 8,
+      "model_type": "Derivative",
+      "accuracy": 86.20689655172413,
+      "trades": 29
+    },
+    {
+      "bucket_count": 100,
+      "bucket_size": 1.416291,
+      "seq_len": 3,
+      "model_type": "Absolute",
+      "accuracy": 85.71428571428571,
+      "trades": 21
     }
   ]
 }

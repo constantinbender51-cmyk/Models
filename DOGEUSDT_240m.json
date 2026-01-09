@@ -1,50 +1,50 @@
 {
   "asset": "DOGEUSDT",
   "timeframe": "240m",
-  "timestamp": "2026-01-07T15:16:34.843728",
-  "data_points": 13191,
-  "combined_accuracy": 76.66666666666667,
-  "combined_trades": 180,
+  "timestamp": "2026-01-09T17:35:31.714762",
+  "data_points": 13152,
+  "combined_accuracy": 67.5392670157068,
+  "combined_trades": 191,
   "strategy_union": [
     {
       "bucket_count": 20,
       "bucket_size": 0.03558293999999999,
       "seq_len": 3,
       "model_type": "Absolute",
-      "accuracy": 74.28571428571429,
+      "accuracy": 80.0,
       "trades": 35
     },
     {
       "bucket_count": 30,
       "bucket_size": 0.023721959999999997,
-      "seq_len": 6,
-      "model_type": "Combined",
-      "accuracy": 72.22222222222221,
-      "trades": 54
-    },
-    {
-      "bucket_count": 50,
-      "bucket_size": 0.014233175999999998,
       "seq_len": 5,
       "model_type": "Combined",
-      "accuracy": 71.42857142857143,
-      "trades": 84
+      "accuracy": 77.27272727272727,
+      "trades": 22
     },
     {
-      "bucket_count": 50,
-      "bucket_size": 0.014233175999999998,
+      "bucket_count": 30,
+      "bucket_size": 0.023721959999999997,
       "seq_len": 6,
       "model_type": "Derivative",
-      "accuracy": 69.6,
-      "trades": 125
+      "accuracy": 71.69811320754717,
+      "trades": 53
     },
     {
-      "bucket_count": 50,
-      "bucket_size": 0.014233175999999998,
-      "seq_len": 4,
+      "bucket_count": 70,
+      "bucket_size": 0.010166554285714285,
+      "seq_len": 5,
       "model_type": "Derivative",
-      "accuracy": 68.18181818181817,
-      "trades": 44
+      "accuracy": 68.58974358974359,
+      "trades": 156
+    },
+    {
+      "bucket_count": 20,
+      "bucket_size": 0.03558293999999999,
+      "seq_len": 6,
+      "model_type": "Derivative",
+      "accuracy": 66.66666666666666,
+      "trades": 21
     }
   ]
 }

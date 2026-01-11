@@ -31,3 +31,4 @@ Change PF_XBTUSD -0.0063/-0.0042 05:05:11
 Change PF_XBTUSD -0.0042/-0.0063 06:02:19
 Change PF_SOLUSD 0.0/0.17 Profit: -0.02 21:41:53
 Change PF_XBTUSD -0.0063/-0.0042 (Position Added) 23:01:36
+Change PF_XRPUSD -11.0/0.0 (Position Added) 00:01:16

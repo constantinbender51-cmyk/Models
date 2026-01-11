@@ -49,3 +49,5 @@ Change PF_XBTUSD 0.0/-0.0042 Profit: ? (Fill too old) 11:49:36
 Change PF_XRPUSD 0.0/-19.0 Profit: ? (Fill too old) 11:49:36
 Change PF_XBTUSD -0.0042/0.0 (Position Added) 11:56:47
 Change PF_XRPUSD -19.0/0.0 (Position Added) 11:56:47
+Change PF_LINKUSD 1.8/0.0 (Position Added) 12:15:21
+Change PF_XRPUSD 11.0/-19.0 Profit: -0.07 12:15:21

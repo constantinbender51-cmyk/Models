@@ -37,3 +37,4 @@ Change PF_XRPUSD 11.0/-11.0 Profit: -0.04 04:01:20
 Change PF_XRPUSD -11.0/11.0 Profit: 0.02 09:30:28
 Change PF_LINKUSD 1.8/0.0 (Position Added) 09:45:32
 Change PF_LINKUSD -1.8/1.8 Profit: 0.02 10:15:37
+Change PF_LINKUSD 1.8/-1.8 Profit: -0.01 10:30:40

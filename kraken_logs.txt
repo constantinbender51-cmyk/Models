@@ -63,3 +63,6 @@ Change PF_SOLUSD -0.17/0.17 Profit: 0.09 14:45:12
 Change PF_LINKUSD 1.7/1.8 Profit: 0.00 14:45:43
 Change PF_XRPUSD 22.0/-11.0 Profit: -0.01 14:45:43
 Change PF_ETHUSD 0.0/0.007 Profit: 0.01 14:45:43
+Change PF_ETHUSD -0.007/0.0 (Position Added) 15:00:16
+Change PF_SOLUSD 0.0/-0.17 Profit: -0.22 15:00:16
+Change PF_ADAUSD 58.0/0.0 (Position Added) 15:00:16

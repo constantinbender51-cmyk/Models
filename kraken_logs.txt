@@ -100,3 +100,4 @@ Change PF_SOLUSD 0.17/0.0 (Position Added) 09:15:49
 Change PF_LINKUSD -1.7/-1.8 Profit: 0.01 09:15:49
 Change PF_LINKUSD -1.8/-1.7 (Position Added) 09:30:22
 Change PF_SOLUSD 0.0/0.17 Profit: -0.04 10:15:30
+Change PF_SOLUSD 0.17/0.0 (Position Added) 12:15:18

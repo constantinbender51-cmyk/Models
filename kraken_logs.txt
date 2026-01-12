@@ -115,3 +115,4 @@ Change PF_LINKUSD -60.4/-60.6 Profit: -0.01 20:15:43
 Change PF_LINKUSD -60.9/-60.4 (Position Added) 20:30:46
 Change PF_LINKUSD -61.5/-60.9 (Position Added) 20:45:49
 Change PF_LINKUSD -61.9/-61.5 (Position Added) 21:30:26
+Change PF_LINKUSD -62.2/-61.9 (Position Added) 21:45:29

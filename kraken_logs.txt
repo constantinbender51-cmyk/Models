@@ -113,3 +113,4 @@ Change PF_XBTUSD -0.004/-0.0032 (Position Added) 18:01:19
 Change PF_LINKUSD -60.6/0.0 (Position Added) 20:00:40
 Change PF_LINKUSD -60.4/-60.6 Profit: -0.01 20:15:43
 Change PF_LINKUSD -60.9/-60.4 (Position Added) 20:30:46
+Change PF_LINKUSD -61.5/-60.9 (Position Added) 20:45:49

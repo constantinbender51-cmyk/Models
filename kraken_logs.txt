@@ -107,3 +107,4 @@ Change PF_XBTUSD 0.0/-0.0062 Profit: ? (Fill too old) 15:15:48
 Change PF_SOLUSD 0.0/0.16 Profit: ? (Fill too old) 15:15:48
 Change PF_SOLUSD 0.16/0.0 (Position Added) 15:28:21
 Change PF_XBTUSD -0.0062/0.0 (Position Added) 15:28:21
+Change PF_SOLUSD 0.0/0.16 Profit: 0.45 16:15:29

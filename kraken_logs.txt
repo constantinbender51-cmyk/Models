@@ -130,3 +130,5 @@ Change PF_DOGEUSD 5941.0/0.0 (Position Added) 00:00:55
 Change PF_LINKUSD 33.8/-48.2 Profit: 4.94 00:00:55
 Change PF_DOGEUSD 5931.0/5941.0 Profit: 0.00 00:15:28
 Change PF_LINKUSD 16.0/33.8 Profit: 0.14 00:15:28
+Change PF_LINKUSD -35.9/16.0 Profit: 0.10 00:15:59
+Change PF_AVAXUSD 60.05/60.11 Profit: 0.00 00:15:59

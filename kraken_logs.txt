@@ -156,3 +156,5 @@ Change PF_DOGEUSD 5919.0/5935.0 Profit: 0.00 03:00:31
 Change PF_AVAXUSD 59.9/59.85 (Position Added) 03:00:31
 Change PF_DOGEUSD 5933.0/5919.0 (Position Added) 03:15:34
 Change PF_AVAXUSD 59.89/59.9 Profit: 0.00 03:15:34
+Change PF_DOGEUSD 5936.0/5933.0 (Position Added) 03:30:37
+Change PF_AVAXUSD 59.99/59.89 (Position Added) 03:30:37

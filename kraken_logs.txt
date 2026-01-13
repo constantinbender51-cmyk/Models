@@ -252,3 +252,5 @@ Change PF_DOGEUSD 6286.0/6101.0 (Position Added) 22:30:34
 Change PF_AVAXUSD 63.82/63.13 (Position Added) 22:30:34
 Change PF_DOGEUSD 6303.0/6286.0 (Position Added) 22:45:37
 Change PF_AVAXUSD 63.94/63.82 (Position Added) 22:46:09
+Change PF_DOGEUSD 6341.0/6303.0 (Position Added) 23:00:47
+Change PF_AVAXUSD 64.55/63.94 (Position Added) 23:00:47

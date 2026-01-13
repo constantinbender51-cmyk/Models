@@ -175,3 +175,6 @@ Change PF_LINKUSD 63.2/62.6 (Position Added) 05:00:55
 Change PF_AVAXUSD 60.86/60.36 (Position Added) 05:00:55
 Change PF_LINKUSD 63.8/63.2 (Position Added) 05:15:28
 Change PF_AVAXUSD 61.4/60.86 (Position Added) 05:15:28
+Change PF_DOGEUSD 6153.0/6037.0 (Position Added) 05:30:31
+Change PF_LINKUSD 64.5/63.8 (Position Added) 05:30:31
+Change PF_AVAXUSD 61.97/61.4 (Position Added) 05:30:31

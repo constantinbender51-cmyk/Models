@@ -216,3 +216,4 @@ Change PF_DOGEUSD 6053.0/6051.0 (Position Added) 11:45:49
 Change PF_DOGEUSD 6055.0/6053.0 (Position Added) 12:00:51
 Change PF_DOGEUSD 6053.0/6055.0 Profit: 0.00 12:15:24
 Change PF_DOGEUSD 6061.0/6053.0 (Position Added) 12:45:30
+Change PF_DOGEUSD 6060.0/6061.0 Profit: 0.00 13:15:35

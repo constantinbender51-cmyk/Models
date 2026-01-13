@@ -147,3 +147,5 @@ Change FF_XBTUSD_260327 0.0087/0.0088 Profit: -0.03 01:45:47
 Change PF_DOGEUSD 5915.0/5882.0 (Position Added) 02:00:50
 Change PF_AVAXUSD 59.8/59.47 (Position Added) 02:00:50
 Change FF_XBTUSD_260327 0.0/0.0087 Profit: -1.91 02:00:50
+Change PF_DOGEUSD 5947.0/5915.0 (Position Added) 02:15:53
+Change PF_AVAXUSD 60.13/59.8 (Position Added) 02:15:53

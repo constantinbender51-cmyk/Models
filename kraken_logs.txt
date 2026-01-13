@@ -200,3 +200,6 @@ Change PF_AVAXUSD 61.08/61.36 Profit: 0.05 07:30:30
 Change PF_DOGEUSD 6054.0/6067.0 Profit: 0.03 07:45:32
 Change PF_LINKUSD 63.6/63.4 (Position Added) 07:45:32
 Change PF_AVAXUSD 61.25/61.08 (Position Added) 07:45:32
+Change PF_DOGEUSD 6052.0/6054.0 Profit: 0.00 08:00:35
+Change PF_LINKUSD 0.0/63.6 Profit: 4.19 08:00:35
+Change PF_AVAXUSD 0.0/61.25 Profit: 12.60 08:00:35

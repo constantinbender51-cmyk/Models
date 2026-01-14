@@ -300,3 +300,4 @@ Change PF_ETHUSD -0.316/-0.31 (Position Added) 18:15:30
 Change PF_ETHUSD -0.312/-0.316 Profit: -0.03 18:30:33
 Change PF_ETHUSD -0.32/-0.312 (Position Added) 18:45:36
 Change PF_ETHUSD -0.316/-0.32 Profit: 0.03 19:00:39
+Change PF_ETHUSD -0.312/-0.316 Profit: -0.03 19:15:42

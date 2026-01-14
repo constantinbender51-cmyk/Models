@@ -268,3 +268,4 @@ Change PF_SOLUSD -6.33/0.0 (Position Added) 01:30:43
 Change PF_SOLUSD 0.0/-6.33 Profit: -1.27 02:00:48
 Change PF_XRPUSD 421.0/0.0 (Position Added) 04:00:34
 Change PF_XRPUSD 420.0/421.0 Profit: -0.01 04:15:37
+Change PF_XRPUSD 419.0/420.0 Profit: -0.02 05:15:45

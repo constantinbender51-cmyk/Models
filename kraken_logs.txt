@@ -265,3 +265,4 @@ Change PF_AVAXUSD 62.21/63.25 Profit: 0.16 23:45:28
 Change PF_AVAXUSD 0.0/62.21 Profit: 12.90 00:00:31
 Change PF_DOGEUSD 0.0/6184.0 Profit: 68.53 00:00:31
 Change PF_SOLUSD -6.33/0.0 (Position Added) 01:30:43
+Change PF_SOLUSD 0.0/-6.33 Profit: -1.27 02:00:48

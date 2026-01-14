@@ -306,3 +306,5 @@ Change PF_SOLUSD -7.08/0.0 (Position Added) 19:45:49
 Change PF_ETHUSD -0.308/-0.305 (Position Added) 19:45:49
 Change PF_SOLUSD 0.0/-7.08 Profit: -0.14 20:00:22
 Change PF_ETHUSD -0.228/-0.308 Profit: -1.84 20:00:22
+Change FF_XBTUSD_260327 0.0106/0.0 (Position Added) 20:00:53
+Change PF_ETHUSD 0.15/-0.228 Profit: -5.28 20:00:53

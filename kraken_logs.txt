@@ -286,3 +286,5 @@ Change PF_ETHUSD -0.312/0.0 (Position Added) 16:00:32
 Change PF_DOGEUSD -6755.0/-7005.0 Profit: -0.60 16:15:35
 Change PF_ETHUSD -0.301/-0.312 Profit: -0.29 16:15:35
 Change PF_DOGEUSD -6777.0/-6755.0 (Position Added) 16:30:39
+Change PF_DOGEUSD -6723.0/-6777.0 Profit: -0.13 16:45:42
+Change PF_ETHUSD -0.299/-0.301 Profit: -0.08 16:45:42

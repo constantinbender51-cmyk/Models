@@ -294,3 +294,4 @@ Change PF_XRPUSD -471.0/0.0 (Position Added) 17:15:48
 Change PF_ETHUSD -0.302/-0.304 Profit: -0.07 17:15:48
 Change PF_XRPUSD -477.0/-471.0 (Position Added) 17:30:21
 Change PF_ETHUSD -0.305/-0.302 (Position Added) 17:30:52
+Change PF_ETHUSD -0.31/-0.305 (Position Added) 17:45:25

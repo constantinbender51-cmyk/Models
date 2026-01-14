@@ -271,3 +271,4 @@ Change PF_XRPUSD 420.0/421.0 Profit: -0.01 04:15:37
 Change PF_XRPUSD 419.0/420.0 Profit: -0.02 05:15:45
 Change PF_XRPUSD 491.0/419.0 (Position Added) 07:15:33
 Change PF_XRPUSD 0.0/491.0 Profit: -15.27 08:30:45
+Change PF_XBTUSD -0.0039/-0.0012 (Position Added) 09:02:21

@@ -410,3 +410,9 @@ Change PF_XLMUSD 0.0/-2326.0 Profit: -0.91 08:15:45
 Change PF_BCHUSD -0.86/-1.11 Profit: -0.29 08:15:45
 Change PF_ETHUSD -0.158/-0.159 Profit: 0.00 08:15:45
 Change PF_ZECUSD -1.19/-1.2 Profit: -0.16 08:16:47
+Change PF_BCHUSD 0.0/-0.86 Profit: ? (Fill too old) 08:30:50
+Change PF_SUIUSD 0.0/-290.0 Profit: ? (Fill too old) 08:30:50
+Change PF_HBARUSD 0.0/-4377.0 Profit: ? (Fill too old) 08:30:50
+Change PF_ZECUSD 0.0/-1.19 Profit: ? (Fill too old) 08:30:50
+Change PF_XBTUSD 0.0/-0.0027 Profit: ? (Fill too old) 08:30:50
+Change PF_ETHUSD 0.0/-0.158 Profit: ? (Fill too old) 08:30:50

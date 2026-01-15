@@ -356,3 +356,4 @@ Change PF_AVAXUSD 0.0/-38.77 Profit: 11.15 04:00:41
 Change PF_SUIUSD -306.0/-307.0 Profit: 0.04 04:00:41
 Change PF_LINKUSD 0.0/-39.9 Profit: 9.20 04:00:41
 Change PF_BCHUSD 0.91/0.0 (Position Added) 04:00:41
+Change FF_XBTUSD_260327 0.0057/0.0 (Position Added) 04:01:12

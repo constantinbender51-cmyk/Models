@@ -518,3 +518,4 @@ Change PF_SUIUSD -303.0/-301.0 (Position Added) 16:16:02
 Change PF_ZECUSD -1.31/-1.3 (Position Added) 16:16:02
 Change PF_BCHUSD 0.91/0.9 (Position Added) 16:16:02
 Change PF_XLMUSD 2367.0/0.0 (Position Added) 16:16:34
+Change PF_SUIUSD -304.0/-303.0 (Position Added) 16:30:36

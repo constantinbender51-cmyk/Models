@@ -325,3 +325,5 @@ Change PF_XBTUSD -0.0025/0.0 (Position Added) 01:01:07
 Change PF_AVAXUSD 0.0/-37.89 Profit: 2.64 01:15:49
 Change PF_XRPUSD 491.0/0.0 (Position Added) 01:15:49
 Change PF_LINKUSD 11.0/-39.2 Profit: 2.32 01:15:49
+Change PF_XRPUSD 490.0/491.0 Profit: -0.01 01:30:28
+Change PF_LINKUSD 0.0/11.0 Profit: -0.46 01:30:28

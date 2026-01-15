@@ -474,3 +474,4 @@ Change PF_HBARUSD 0.0/-4175.0 Profit: -3.29 12:16:04
 Change PF_SUIUSD -283.0/-276.0 (Position Added) 12:30:36
 Change PF_ZECUSD -1.16/-1.15 (Position Added) 12:31:07
 Change PF_BCHUSD -0.83/-0.81 (Position Added) 12:31:07
+Change PF_SUIUSD -282.0/-283.0 Profit: 0.01 12:45:40

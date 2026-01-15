@@ -1,11 +1,11 @@
 {
   "asset": "DOGEUSDT",
   "timeframe": "15m",
-  "timestamp": "2026-01-10T21:25:58.800948",
+  "timestamp": "2026-01-15T00:46:21.257090",
   "data_points": 210280,
   "optimization_type": "full_dataset_fit",
   "combined_accuracy": 100.0,
-  "combined_trades": 142,
+  "combined_trades": 143,
   "strategy_union": [
     {
       "config": {
@@ -672,25 +672,8 @@
             "0": 1
           }
         },
-        "all_vals": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10
-        ],
-        "all_changes": [
-          0,
-          1,
-          2,
-          -1
-        ]
+        "all_vals": [],
+        "all_changes": []
       }
     },
     {
@@ -1880,25 +1863,8 @@
             "1": 1
           }
         },
-        "all_vals": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10
-        ],
-        "all_changes": [
-          0,
-          1,
-          2,
-          -1
-        ]
+        "all_vals": [],
+        "all_changes": []
       }
     },
     {
@@ -3887,25 +3853,8 @@
             "0": 1
           }
         },
-        "all_vals": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10
-        ],
-        "all_changes": [
-          0,
-          1,
-          2,
-          -1
-        ]
+        "all_vals": [],
+        "all_changes": []
       }
     },
     {
@@ -8423,25 +8372,8 @@
             "0": 1
           }
         },
-        "all_vals": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10
-        ],
-        "all_changes": [
-          0,
-          1,
-          2,
-          -1
-        ]
+        "all_vals": [],
+        "all_changes": []
       }
     },
     {
@@ -8451,7 +8383,7 @@
         "seq_len": 4,
         "model_type": "Combined",
         "accuracy": 100.0,
-        "trades": 22
+        "trades": 23
       },
       "trained_parameters": {
         "bucket_size": 0.036748885,
@@ -9891,38 +9823,8 @@
             "0": 1
           }
         },
-        "all_vals": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16,
-          17,
-          18,
-          19,
-          20
-        ],
-        "all_changes": [
-          0,
-          1,
-          2,
-          3,
-          -2,
-          -3,
-          -1
-        ]
+        "all_vals": [],
+        "all_changes": []
       }
     }
   ]

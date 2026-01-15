@@ -503,3 +503,7 @@ Change PF_SOLUSD 3.69/3.67 (Position Added) 15:15:47
 Change PF_SUIUSD -292.0/-291.0 (Position Added) 15:15:47
 Change PF_ZECUSD -1.22/-1.21 (Position Added) 15:15:47
 Change PF_BCHUSD -0.88/-0.87 (Position Added) 15:15:47
+Change PF_SOLUSD 0.0/3.69 Profit: -5.13 15:30:49
+Change PF_SUIUSD -298.0/-292.0 (Position Added) 15:30:49
+Change PF_ZECUSD -1.24/-1.22 (Position Added) 15:30:49
+Change PF_BCHUSD -0.89/-0.88 (Position Added) 15:30:49

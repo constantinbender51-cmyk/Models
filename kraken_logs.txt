@@ -416,3 +416,9 @@ Change PF_HBARUSD 0.0/-4377.0 Profit: ? (Fill too old) 08:30:50
 Change PF_ZECUSD 0.0/-1.19 Profit: ? (Fill too old) 08:30:50
 Change PF_XBTUSD 0.0/-0.0027 Profit: ? (Fill too old) 08:30:50
 Change PF_ETHUSD 0.0/-0.158 Profit: ? (Fill too old) 08:30:50
+Change PF_BCHUSD -0.86/0.0 (Position Added) 08:40:53
+Change PF_SUIUSD -290.0/0.0 (Position Added) 08:40:53
+Change PF_HBARUSD -4377.0/0.0 (Position Added) 08:40:53
+Change PF_ZECUSD -1.19/0.0 (Position Added) 08:40:53
+Change PF_XBTUSD -0.0027/0.0 (Position Added) 08:40:53
+Change PF_ETHUSD -0.158/0.0 (Position Added) 08:40:53

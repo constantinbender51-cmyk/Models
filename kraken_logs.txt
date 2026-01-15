@@ -378,3 +378,4 @@ Change PF_BCHUSD 0.88/0.89 Profit: 0.17 05:31:06
 Change PF_ZECUSD -2.51/-1.27 (Position Added) 05:31:06
 Change PF_ZECUSD -2.53/-2.51 (Position Added) 05:45:39
 Change PF_BCHUSD 0.89/0.88 (Position Added) 05:46:10
+Change PF_ZECUSD 0.0/-2.53 Profit: -1.50 06:00:43

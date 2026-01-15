@@ -332,3 +332,7 @@ Change PF_AVAXUSD -35.91/0.0 (Position Added) 02:15:21
 Change PF_LINKUSD -37.0/0.0 (Position Added) 02:30:48
 Change PF_AVAXUSD -35.82/-35.91 Profit: -0.00 02:30:48
 Change PF_SUIUSD -283.0/0.0 (Position Added) 02:30:48
+Change PF_SUIUSD -289.0/-283.0 (Position Added) 02:45:36
+Change PF_LINKUSD -37.6/-37.0 (Position Added) 02:45:36
+Change PF_AVAXUSD -36.43/-35.82 (Position Added) 02:45:36
+Change PF_ZECUSD -1.22/0.0 (Position Added) 02:45:36

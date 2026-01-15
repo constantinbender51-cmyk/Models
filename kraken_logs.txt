@@ -459,3 +459,4 @@ Change PF_SUIUSD -274.0/-278.0 Profit: -0.07 11:00:56
 Change PF_BCHUSD -0.81/-0.82 Profit: -0.14 11:00:56
 Change PF_ZECUSD -1.14/-1.16 Profit: -0.23 11:00:56
 Change PF_ETHUSD -0.15/-0.151 Profit: -0.03 11:00:56
+Change PF_HBARUSD -4162.0/-4203.0 Profit: -0.02 11:01:28

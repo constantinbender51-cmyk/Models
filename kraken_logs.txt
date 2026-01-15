@@ -376,3 +376,4 @@ Change PF_XBTUSD -0.0027/-0.004 Profit: 0.02 05:02:30
 Change PF_SUIUSD -302.0/-304.0 Profit: 0.04 05:15:33
 Change PF_BCHUSD 0.88/0.89 Profit: 0.17 05:31:06
 Change PF_ZECUSD -2.51/-1.27 (Position Added) 05:31:06
+Change PF_ZECUSD -2.53/-2.51 (Position Added) 05:45:39

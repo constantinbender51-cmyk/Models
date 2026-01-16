@@ -580,3 +580,4 @@ Change PF_ZECUSD -1.31/-1.3 (Position Added) 00:45:40
 Change PF_ZECUSD -1.33/-1.31 (Position Added) 01:00:33
 Change PF_ZECUSD -1.34/-1.33 (Position Added) 01:30:37
 Change PF_ZECUSD -1.35/-1.34 (Position Added) 02:15:43
+Change PF_ZECUSD -1.34/-1.35 Profit: 0.20 02:30:46

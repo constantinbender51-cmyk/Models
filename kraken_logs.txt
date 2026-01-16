@@ -641,3 +641,4 @@ Change PF_SOLUSD -3.75/-3.74 (Position Added) 12:45:41
 Change PF_SOLUSD -3.76/-3.75 (Position Added) 13:30:49
 Change PF_HBARUSD 0.0/4607.0 Profit: -5.33 13:30:49
 Change PF_SOLUSD -3.77/-3.76 (Position Added) 13:45:53
+Change PF_SOLUSD -3.73/-3.77 Profit: -0.03 14:31:00

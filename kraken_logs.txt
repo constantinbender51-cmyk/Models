@@ -644,3 +644,4 @@ Change PF_SOLUSD -3.77/-3.76 (Position Added) 13:45:53
 Change PF_SOLUSD -3.73/-3.77 Profit: -0.03 14:31:00
 Change PF_SOLUSD -3.76/-3.73 (Position Added) 14:46:03
 Change PF_SOLUSD -3.78/-3.76 (Position Added) 15:00:35
+Change PF_SOLUSD -3.75/-3.78 Profit: -0.01 15:15:38

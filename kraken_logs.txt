@@ -597,3 +597,4 @@ Change PF_XLMUSD 2413.0/2414.0 Profit: 0.00 05:46:22
 Change PF_XLMUSD 45.0/2413.0 Profit: 2.56 06:00:55
 Change PF_HBARUSD -4660.0/-4656.0 (Position Added) 06:00:55
 Change PF_XLMUSD 0.0/45.0 Profit: 0.05 06:01:26
+Change PF_HBARUSD -4680.0/-4660.0 (Position Added) 06:31:01

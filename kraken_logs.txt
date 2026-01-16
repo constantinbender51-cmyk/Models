@@ -659,3 +659,6 @@ Change PF_HBARUSD -4536.0/0.0 (Position Added) 21:30:37
 Change PF_ZECUSD -1.3/-1.32 Profit: -0.08 21:31:09
 Change PF_ZECUSD -1.31/-1.3 (Position Added) 21:45:41
 Change PF_HBARUSD -4540.0/-4536.0 (Position Added) 21:46:13
+Change PF_XBTUSD -0.0013/-0.004 Profit: 1.02 22:01:15
+Change PF_ZECUSD -1.32/-1.31 (Position Added) 22:01:15
+Change PF_HBARUSD -4574.0/-4540.0 (Position Added) 22:01:15

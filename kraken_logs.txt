@@ -625,3 +625,4 @@ Change PF_XLMUSD 2405.0/0.0 (Position Added) 09:31:03
 Change PF_SOLUSD -3.81/-3.82 Profit: -0.00 09:45:35
 Change PF_SOLUSD -3.8/-3.81 Profit: -0.00 10:01:08
 Change PF_ZECUSD 1.32/1.33 Profit: 0.02 10:01:08
+Change PF_SOLUSD -3.78/-3.8 Profit: -0.00 10:15:41

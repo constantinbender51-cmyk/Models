@@ -574,3 +574,4 @@ Change PF_SUIUSD -304.0/-306.0 Profit: 0.08 23:15:46
 Change PF_ZECUSD -1.31/-1.33 Profit: 0.34 23:15:46
 Change PF_SUIUSD -303.0/-304.0 Profit: 0.03 23:45:55
 Change PF_SUIUSD 0.0/-303.0 Profit: 10.96 00:00:58
+Change PF_ZECUSD -1.29/-1.31 Profit: 0.26 00:16:01

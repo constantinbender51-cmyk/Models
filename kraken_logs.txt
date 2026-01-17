@@ -693,3 +693,4 @@ Change PF_XLMUSD -2423.0/-2418.0 (Position Added) 03:31:15
 Change PF_XLMUSD -2424.0/-2423.0 (Position Added) 03:46:17
 Change PF_XLMUSD -1012.0/-2424.0 Profit: 2.05 04:00:50
 Change PF_XLMUSD 1412.0/-1012.0 Profit: 1.37 04:01:21
+Change PF_XLMUSD 0.0/1412.0 Profit: -0.27 04:15:54

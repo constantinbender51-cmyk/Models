@@ -718,3 +718,4 @@ Change PF_AVAXUSD -38.65/-38.89 Profit: -0.06 15:45:49
 Change PF_AVAXUSD 20.12/-38.65 Profit: -9.36 16:00:53
 Change PF_AVAXUSD 0.0/20.12 Profit: 0.08 16:15:56
 Change PF_ZECUSD 1.61/0.0 (Position Added) 20:00:56
+Change PF_ZECUSD 1.33/1.61 Profit: 0.10 20:15:59

@@ -702,3 +702,4 @@ Change PF_AVAXUSD -39.92/0.0 (Position Added) 12:00:58
 Change PF_XBTUSD -0.005/-0.0077 Profit: -0.28 12:01:29
 Change PF_AVAXUSD -39.7/-39.92 Profit: -0.01 12:16:04
 Change PF_AVAXUSD -39.64/-39.7 Profit: -0.00 12:30:37
+Change PF_AVAXUSD -39.66/-39.64 (Position Added) 12:45:40

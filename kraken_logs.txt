@@ -669,3 +669,5 @@ Change PF_BCHUSD -0.92/-0.91 (Position Added) 23:30:59
 Change PF_SOLUSD -4.02/0.0 (Position Added) 23:30:59
 Change PF_ZECUSD -1.34/-1.33 (Position Added) 23:30:59
 Change PF_SOLUSD -3.81/-4.02 Profit: 0.06 23:45:32
+Change PF_XRPUSD 267.0/0.0 (Position Added) 00:00:35
+Change PF_SOLUSD 3.81/-3.81 Profit: 0.54 00:00:35

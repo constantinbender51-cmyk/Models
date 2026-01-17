@@ -709,3 +709,4 @@ Change PF_AVAXUSD -39.54/-39.68 Profit: -0.01 13:30:52
 Change PF_AVAXUSD -39.29/-39.54 Profit: -0.03 13:45:55
 Change PF_AVAXUSD -39.28/-39.29 Profit: -0.00 14:00:58
 Change PF_AVAXUSD -39.21/-39.28 Profit: -0.01 14:15:31
+Change PF_AVAXUSD -39.22/-39.21 (Position Added) 14:30:34

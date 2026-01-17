@@ -680,3 +680,4 @@ Change PF_SOLUSD 3.81/3.8 (Position Added) 00:30:44
 Change PF_SOLUSD 3.8/3.81 Profit: -0.01 00:45:47
 Change PF_BCHUSD 0.48/0.92 Profit: -0.16 01:00:49
 Change PF_SOLUSD -3.14/3.8 Profit: -2.35 01:00:49
+Change PF_BCHUSD -0.93/0.48 Profit: -0.22 01:01:21

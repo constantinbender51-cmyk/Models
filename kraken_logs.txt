@@ -684,3 +684,4 @@ Change PF_BCHUSD -0.93/0.48 Profit: -0.22 01:01:21
 Change PF_BCHUSD 0.95/-0.93 Profit: -0.14 01:15:54
 Change PF_XRPUSD 264.0/266.0 Profit: -0.01 01:15:54
 Change PF_SOLUSD 0.0/-3.14 Profit: -1.22 01:15:54
+Change PF_HBARUSD 0.0/-4574.0 Profit: 1.95 01:16:25

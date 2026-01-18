@@ -745,3 +745,5 @@ Change PF_ZECUSD 1.36/1.35 (Position Added) 02:31:02
 Change PF_ADAUSD -1352.0/-1358.0 Profit: 0.01 02:46:05
 Change PF_HBARUSD -4539.0/-4526.0 (Position Added) 02:46:05
 Change PF_ETHUSD 0.161/0.162 Profit: -0.00 03:15:39
+Change PF_ZECUSD 1.35/1.36 Profit: -0.09 03:16:11
+Change PF_HBARUSD -4531.0/-4539.0 Profit: 0.01 03:16:11

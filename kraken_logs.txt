@@ -771,3 +771,4 @@ Change PF_LINKUSD 38.9/38.8 (Position Added) 07:46:01
 Change PF_LINKUSD 0.0/38.9 Profit: 1.13 08:00:34
 Change PF_ADAUSD -1356.0/-1353.0 (Position Added) 08:01:05
 Change PF_ZECUSD 1.35/0.0 (Position Added) 08:01:05
+Change PF_ADAUSD -1364.0/-1356.0 (Position Added) 08:15:37

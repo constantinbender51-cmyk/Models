@@ -753,3 +753,4 @@ Change PF_ETHUSD 0.0/0.161 Profit: 0.92 04:00:48
 Change PF_LINKUSD 53.7/0.0 (Position Added) 04:00:48
 Change PF_ZECUSD 0.0/1.35 Profit: -12.51 04:01:49
 Change PF_LINKUSD 38.9/53.7 Profit: -0.37 04:15:52
+Change PF_HBARUSD 4540.0/4547.0 Profit: -0.00 05:00:58

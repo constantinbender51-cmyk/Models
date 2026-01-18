@@ -731,3 +731,4 @@ Change PF_ZECUSD 1.34/1.33 (Position Added) 00:45:39
 Change PF_ADAUSD -1348.0/0.0 (Position Added) 00:45:39
 Change PF_ADAUSD -1353.0/-1348.0 (Position Added) 01:00:41
 Change PF_HBARUSD -4524.0/-4475.0 (Position Added) 01:00:41
+Change PF_HBARUSD -4532.0/-4524.0 (Position Added) 01:01:13

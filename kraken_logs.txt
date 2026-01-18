@@ -765,3 +765,4 @@ Change PF_LINKUSD 38.8/38.9 Profit: -0.00 06:31:17
 Change PF_ADAUSD -1348.0/-1346.0 (Position Added) 06:45:50
 Change PF_HBARUSD 4544.0/4537.0 (Position Added) 06:45:50
 Change PF_HBARUSD 4545.0/4544.0 (Position Added) 07:00:52
+Change PF_ADAUSD -1353.0/-1348.0 (Position Added) 07:15:55

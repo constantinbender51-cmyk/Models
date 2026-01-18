@@ -814,3 +814,4 @@ Change PF_ADAUSD -1347.0/-1358.0 Profit: 0.03 16:16:06
 Change PF_ADAUSD -1354.0/-1347.0 (Position Added) 16:45:41
 Change PF_ADAUSD -1358.0/-1354.0 (Position Added) 17:01:14
 Change FF_SOLUSD_260130 2.66/0.0 (Position Added) 17:01:14
+Change PF_ADAUSD -1364.0/-1358.0 (Position Added) 17:15:47

@@ -767,3 +767,4 @@ Change PF_HBARUSD 4544.0/4537.0 (Position Added) 06:45:50
 Change PF_HBARUSD 4545.0/4544.0 (Position Added) 07:00:52
 Change PF_ADAUSD -1353.0/-1348.0 (Position Added) 07:15:55
 Change PF_HBARUSD 4559.0/4545.0 (Position Added) 07:16:26
+Change PF_LINKUSD 38.9/38.8 (Position Added) 07:46:01

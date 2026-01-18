@@ -800,3 +800,4 @@ Change PF_ETHUSD -0.16/-0.159 (Position Added) 15:00:46
 Change PF_ZECUSD 1.36/1.35 (Position Added) 15:01:17
 Change PF_XBTUSD -0.005/-0.0049 (Position Added) 15:01:17
 Change PF_XBTUSD -0.0055/-0.005 (Position Added) 15:01:48
+Change PF_XBTUSD -0.0074/-0.0055 (Position Added) 15:03:20

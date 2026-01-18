@@ -805,3 +805,6 @@ Change PF_ZECUSD 1.35/1.36 Profit: -0.02 15:30:54
 Change PF_ADAUSD -1358.0/-1346.0 (Position Added) 15:30:54
 Change PF_ADAUSD -1355.0/-1358.0 Profit: 0.01 15:45:57
 Change PF_ETHUSD -0.159/-0.16 Profit: -0.01 15:45:57
+Change PF_ZECUSD 0.0/1.35 Profit: -1.38 16:01:00
+Change PF_ADAUSD -1358.0/-1355.0 (Position Added) 16:01:00
+Change PF_ETHUSD 0.094/-0.159 Profit: -1.55 16:01:00

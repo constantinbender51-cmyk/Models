@@ -118,5 +118,37 @@
         "timeframe": "15m",
         "start_ts": 1768994100000,
         "end_ts": 1768995000000
+    },
+    {
+        "id": "HBARUSDT_1h_1768996800000",
+        "symbol": "HBARUSDT",
+        "signal": 1,
+        "timeframe": "1h",
+        "start_ts": 1768996800000,
+        "end_ts": 1769000400000
+    },
+    {
+        "id": "HBARUSDT_4h_1768996800000",
+        "symbol": "HBARUSDT",
+        "signal": -1,
+        "timeframe": "4h",
+        "start_ts": 1768996800000,
+        "end_ts": 1769011200000
+    },
+    {
+        "id": "ZECUSDT_30m_1768996800000",
+        "symbol": "ZECUSDT",
+        "signal": -1,
+        "timeframe": "30m",
+        "start_ts": 1768996800000,
+        "end_ts": 1768998600000
+    },
+    {
+        "id": "ZECUSDT_1h_1768996800000",
+        "symbol": "ZECUSDT",
+        "signal": -1,
+        "timeframe": "1h",
+        "start_ts": 1768996800000,
+        "end_ts": 1769000400000
     }
 ]

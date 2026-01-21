@@ -254,5 +254,13 @@
         "timeframe": "30m",
         "start_ts": 1769016600000,
         "end_ts": 1769018400000
+    },
+    {
+        "id": "TRXUSDT_1h_1769018400000",
+        "symbol": "TRXUSDT",
+        "signal": -1,
+        "timeframe": "1h",
+        "start_ts": 1769018400000,
+        "end_ts": 1769022000000
     }
 ]

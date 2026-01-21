@@ -264,92 +264,12 @@
         "end_ts": 1769022000000
     },
     {
-        "id": "TRXUSDT_1h_1769022000000",
-        "symbol": "TRXUSDT",
-        "signal": -1,
-        "timeframe": "1h",
-        "start_ts": 1769022000000,
-        "end_ts": 1769025600000
-    },
-    {
-        "id": "SUIUSDT_1h_1769022000000",
-        "symbol": "SUIUSDT",
-        "signal": 1,
-        "timeframe": "1h",
-        "start_ts": 1769022000000,
-        "end_ts": 1769025600000
-    },
-    {
-        "id": "ZECUSDT_15m_1769023800000",
-        "symbol": "ZECUSDT",
-        "signal": -1,
-        "timeframe": "15m",
-        "start_ts": 1769023800000,
-        "end_ts": 1769024700000
-    },
-    {
-        "id": "ZECUSDT_30m_1769023800000",
-        "symbol": "ZECUSDT",
-        "signal": -1,
-        "timeframe": "30m",
-        "start_ts": 1769023800000,
-        "end_ts": 1769025600000
-    },
-    {
-        "id": "XRPUSDT_1h_1769025600000",
-        "symbol": "XRPUSDT",
-        "signal": -1,
-        "timeframe": "1h",
-        "start_ts": 1769025600000,
-        "end_ts": 1769029200000
-    },
-    {
         "id": "TRXUSDT_4h_1769025600000",
         "symbol": "TRXUSDT",
         "signal": -1,
         "timeframe": "4h",
         "start_ts": 1769025600000,
         "end_ts": 1769040000000
-    },
-    {
-        "id": "SUIUSDT_1h_1769025600000",
-        "symbol": "SUIUSDT",
-        "signal": -1,
-        "timeframe": "1h",
-        "start_ts": 1769025600000,
-        "end_ts": 1769029200000
-    },
-    {
-        "id": "HBARUSDT_30m_1769029200000",
-        "symbol": "HBARUSDT",
-        "signal": -1,
-        "timeframe": "30m",
-        "start_ts": 1769029200000,
-        "end_ts": 1769031000000
-    },
-    {
-        "id": "BNBUSDT_30m_1769029200000",
-        "symbol": "BNBUSDT",
-        "signal": -1,
-        "timeframe": "30m",
-        "start_ts": 1769029200000,
-        "end_ts": 1769031000000
-    },
-    {
-        "id": "HBARUSDT_15m_1769031900000",
-        "symbol": "HBARUSDT",
-        "signal": -1,
-        "timeframe": "15m",
-        "start_ts": 1769031900000,
-        "end_ts": 1769032800000
-    },
-    {
-        "id": "HBARUSDT_30m_1769034600000",
-        "symbol": "HBARUSDT",
-        "signal": 1,
-        "timeframe": "30m",
-        "start_ts": 1769034600000,
-        "end_ts": 1769036400000
     },
     {
         "id": "HBARUSDT_1h_1769036400000",

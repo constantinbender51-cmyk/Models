@@ -198,5 +198,21 @@
         "timeframe": "15m",
         "start_ts": 1769004900000,
         "end_ts": 1769005800000
+    },
+    {
+        "id": "SUIUSDT_1h_1769007600000",
+        "symbol": "SUIUSDT",
+        "signal": -1,
+        "timeframe": "1h",
+        "start_ts": 1769007600000,
+        "end_ts": 1769011200000
+    },
+    {
+        "id": "ZECUSDT_30m_1769007600000",
+        "symbol": "ZECUSDT",
+        "signal": -1,
+        "timeframe": "30m",
+        "start_ts": 1769007600000,
+        "end_ts": 1769009400000
     }
 ]

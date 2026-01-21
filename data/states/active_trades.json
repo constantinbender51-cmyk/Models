@@ -294,5 +294,29 @@
         "timeframe": "30m",
         "start_ts": 1769023800000,
         "end_ts": 1769025600000
+    },
+    {
+        "id": "XRPUSDT_1h_1769025600000",
+        "symbol": "XRPUSDT",
+        "signal": -1,
+        "timeframe": "1h",
+        "start_ts": 1769025600000,
+        "end_ts": 1769029200000
+    },
+    {
+        "id": "TRXUSDT_4h_1769025600000",
+        "symbol": "TRXUSDT",
+        "signal": -1,
+        "timeframe": "4h",
+        "start_ts": 1769025600000,
+        "end_ts": 1769040000000
+    },
+    {
+        "id": "SUIUSDT_1h_1769025600000",
+        "symbol": "SUIUSDT",
+        "signal": -1,
+        "timeframe": "1h",
+        "start_ts": 1769025600000,
+        "end_ts": 1769029200000
     }
 ]

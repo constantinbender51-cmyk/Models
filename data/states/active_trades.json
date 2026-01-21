@@ -222,5 +222,29 @@
         "timeframe": "15m",
         "start_ts": 1769013000000,
         "end_ts": 1769013900000
+    },
+    {
+        "id": "SUIUSDT_30m_1769014800000",
+        "symbol": "SUIUSDT",
+        "signal": 1,
+        "timeframe": "30m",
+        "start_ts": 1769014800000,
+        "end_ts": 1769016600000
+    },
+    {
+        "id": "SUIUSDT_1h_1769014800000",
+        "symbol": "SUIUSDT",
+        "signal": 1,
+        "timeframe": "1h",
+        "start_ts": 1769014800000,
+        "end_ts": 1769018400000
+    },
+    {
+        "id": "BNBUSDT_1h_1769014800000",
+        "symbol": "BNBUSDT",
+        "signal": 1,
+        "timeframe": "1h",
+        "start_ts": 1769014800000,
+        "end_ts": 1769018400000
     }
 ]

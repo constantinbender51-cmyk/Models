@@ -214,5 +214,13 @@
         "timeframe": "30m",
         "start_ts": 1769007600000,
         "end_ts": 1769009400000
+    },
+    {
+        "id": "XRPUSDT_15m_1769013000000",
+        "symbol": "XRPUSDT",
+        "signal": 1,
+        "timeframe": "15m",
+        "start_ts": 1769013000000,
+        "end_ts": 1769013900000
     }
 ]

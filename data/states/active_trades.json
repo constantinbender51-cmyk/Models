@@ -462,5 +462,21 @@
         "timeframe": "15m",
         "start_ts": 1769096700000,
         "end_ts": 1769097600000
+    },
+    {
+        "id": "XLMUSDT_4h_1769097600000",
+        "symbol": "XLMUSDT",
+        "signal": 1,
+        "timeframe": "4h",
+        "start_ts": 1769097600000,
+        "end_ts": 1769112000000
+    },
+    {
+        "id": "SUIUSDT_30m_1769097600000",
+        "symbol": "SUIUSDT",
+        "signal": -1,
+        "timeframe": "30m",
+        "start_ts": 1769097600000,
+        "end_ts": 1769099400000
     }
 ]

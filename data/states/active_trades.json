@@ -382,5 +382,21 @@
         "timeframe": "30m",
         "start_ts": 1769061600000,
         "end_ts": 1769063400000
+    },
+    {
+        "id": "HBARUSDT_30m_1769065200000",
+        "symbol": "HBARUSDT",
+        "signal": -1,
+        "timeframe": "30m",
+        "start_ts": 1769065200000,
+        "end_ts": 1769067000000
+    },
+    {
+        "id": "ZECUSDT_1h_1769065200000",
+        "symbol": "ZECUSDT",
+        "signal": -1,
+        "timeframe": "1h",
+        "start_ts": 1769065200000,
+        "end_ts": 1769068800000
     }
 ]

@@ -430,5 +430,21 @@
         "timeframe": "15m",
         "start_ts": 1769080500000,
         "end_ts": 1769081400000
+    },
+    {
+        "id": "XLMUSDT_4h_1769083200000",
+        "symbol": "XLMUSDT",
+        "signal": -1,
+        "timeframe": "4h",
+        "start_ts": 1769083200000,
+        "end_ts": 1769097600000
+    },
+    {
+        "id": "HBARUSDT_1h_1769083200000",
+        "symbol": "HBARUSDT",
+        "signal": 1,
+        "timeframe": "1h",
+        "start_ts": 1769083200000,
+        "end_ts": 1769086800000
     }
 ]

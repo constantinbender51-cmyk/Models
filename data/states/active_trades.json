@@ -422,5 +422,13 @@
         "timeframe": "30m",
         "start_ts": 1769074200000,
         "end_ts": 1769076000000
+    },
+    {
+        "id": "HBARUSDT_15m_1769080500000",
+        "symbol": "HBARUSDT",
+        "signal": 1,
+        "timeframe": "15m",
+        "start_ts": 1769080500000,
+        "end_ts": 1769081400000
     }
 ]

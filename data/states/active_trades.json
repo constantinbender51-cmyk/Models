@@ -494,5 +494,13 @@
         "timeframe": "30m",
         "start_ts": 1769099400000,
         "end_ts": 1769101200000
+    },
+    {
+        "id": "ZECUSDT_30m_1769101200000",
+        "symbol": "ZECUSDT",
+        "signal": -1,
+        "timeframe": "30m",
+        "start_ts": 1769101200000,
+        "end_ts": 1769103000000
     }
 ]

@@ -510,5 +510,13 @@
         "timeframe": "1h",
         "start_ts": 1769108400000,
         "end_ts": 1769112000000
+    },
+    {
+        "id": "SUIUSDT_15m_1769123700000",
+        "symbol": "SUIUSDT",
+        "signal": 1,
+        "timeframe": "15m",
+        "start_ts": 1769123700000,
+        "end_ts": 1769124600000
     }
 ]

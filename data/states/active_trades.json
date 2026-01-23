@@ -576,43 +576,11 @@
         "end_ts": 1769173200000
     },
     {
-        "id": "ZECUSDT_4h_1769169600000",
-        "symbol": "ZECUSDT",
-        "signal": -1,
-        "timeframe": "4h",
-        "start_ts": 1769169600000,
-        "end_ts": 1769184000000
-    },
-    {
-        "id": "SUIUSDT_30m_1769173200000",
-        "symbol": "SUIUSDT",
-        "signal": 1,
-        "timeframe": "30m",
-        "start_ts": 1769173200000,
-        "end_ts": 1769175000000
-    },
-    {
-        "id": "SUIUSDT_1h_1769176800000",
-        "symbol": "SUIUSDT",
-        "signal": 1,
-        "timeframe": "1h",
-        "start_ts": 1769176800000,
-        "end_ts": 1769180400000
-    },
-    {
         "id": "LINKUSDT_4h_1769184000000",
         "symbol": "LINKUSDT",
         "signal": 1,
         "timeframe": "4h",
         "start_ts": 1769184000000,
         "end_ts": 1769198400000
-    },
-    {
-        "id": "SUIUSDT_1h_1769184000000",
-        "symbol": "SUIUSDT",
-        "signal": -1,
-        "timeframe": "1h",
-        "start_ts": 1769184000000,
-        "end_ts": 1769187600000
     }
 ]

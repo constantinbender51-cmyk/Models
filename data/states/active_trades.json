@@ -518,5 +518,21 @@
         "timeframe": "15m",
         "start_ts": 1769123700000,
         "end_ts": 1769124600000
+    },
+    {
+        "id": "TRXUSDT_1d_1769126400000",
+        "symbol": "TRXUSDT",
+        "signal": -1,
+        "timeframe": "1d",
+        "start_ts": 1769126400000,
+        "end_ts": 1769212800000
+    },
+    {
+        "id": "ZECUSDT_1d_1769126400000",
+        "symbol": "ZECUSDT",
+        "signal": 1,
+        "timeframe": "1d",
+        "start_ts": 1769126400000,
+        "end_ts": 1769212800000
     }
 ]

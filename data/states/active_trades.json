@@ -542,5 +542,29 @@
         "timeframe": "1h",
         "start_ts": 1769191200000,
         "end_ts": 1769194800000
+    },
+    {
+        "id": "LINKUSDT_4h_1769198400000",
+        "symbol": "LINKUSDT",
+        "signal": 1,
+        "timeframe": "4h",
+        "start_ts": 1769198400000,
+        "end_ts": 1769212800000
+    },
+    {
+        "id": "HBARUSDT_30m_1769198400000",
+        "symbol": "HBARUSDT",
+        "signal": 1,
+        "timeframe": "30m",
+        "start_ts": 1769198400000,
+        "end_ts": 1769200200000
+    },
+    {
+        "id": "HBARUSDT_1h_1769198400000",
+        "symbol": "HBARUSDT",
+        "signal": 1,
+        "timeframe": "1h",
+        "start_ts": 1769198400000,
+        "end_ts": 1769202000000
     }
 ]

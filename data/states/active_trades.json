@@ -598,5 +598,21 @@
         "timeframe": "1d",
         "start_ts": 1769212800000,
         "end_ts": 1769299200000
+    },
+    {
+        "id": "LINKUSDT_4h_1769227200000",
+        "symbol": "LINKUSDT",
+        "signal": 1,
+        "timeframe": "4h",
+        "start_ts": 1769227200000,
+        "end_ts": 1769241600000
+    },
+    {
+        "id": "ZECUSDT_4h_1769227200000",
+        "symbol": "ZECUSDT",
+        "signal": -1,
+        "timeframe": "4h",
+        "start_ts": 1769227200000,
+        "end_ts": 1769241600000
     }
 ]

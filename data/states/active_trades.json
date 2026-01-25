@@ -478,5 +478,13 @@
         "timeframe": "4h",
         "start_ts": 1769356800000,
         "end_ts": 1769371200000
+    },
+    {
+        "id": "LINKUSDT_4h_1769371200000",
+        "symbol": "LINKUSDT",
+        "signal": 1,
+        "timeframe": "4h",
+        "start_ts": 1769371200000,
+        "end_ts": 1769385600000
     }
 ]

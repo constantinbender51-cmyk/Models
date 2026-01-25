@@ -534,5 +534,29 @@
         "timeframe": "1d",
         "start_ts": 1769212800000,
         "end_ts": 1769299200000
+    },
+    {
+        "id": "XLMUSDT_1d_1769299200000",
+        "symbol": "XLMUSDT",
+        "signal": -1,
+        "timeframe": "1d",
+        "start_ts": 1769299200000,
+        "end_ts": 1769385600000
+    },
+    {
+        "id": "ZECUSDT_30m_1769299200000",
+        "symbol": "ZECUSDT",
+        "signal": -1,
+        "timeframe": "30m",
+        "start_ts": 1769299200000,
+        "end_ts": 1769301000000
+    },
+    {
+        "id": "ZECUSDT_1d_1769299200000",
+        "symbol": "ZECUSDT",
+        "signal": 1,
+        "timeframe": "1d",
+        "start_ts": 1769299200000,
+        "end_ts": 1769385600000
     }
 ]

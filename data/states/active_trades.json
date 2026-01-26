@@ -518,5 +518,13 @@
         "timeframe": "30m",
         "start_ts": 1769419800000,
         "end_ts": 1769421600000
+    },
+    {
+        "id": "ETHUSDT_1h_1769421600000",
+        "symbol": "ETHUSDT",
+        "signal": 1,
+        "timeframe": "1h",
+        "start_ts": 1769421600000,
+        "end_ts": 1769425200000
     }
 ]

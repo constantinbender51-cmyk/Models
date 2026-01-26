@@ -486,5 +486,21 @@
         "timeframe": "4h",
         "start_ts": 1769371200000,
         "end_ts": 1769385600000
+    },
+    {
+        "id": "AVAXUSDT_1d_1769385600000",
+        "symbol": "AVAXUSDT",
+        "signal": -1,
+        "timeframe": "1d",
+        "start_ts": 1769385600000,
+        "end_ts": 1769472000000
+    },
+    {
+        "id": "XLMUSDT_1d_1769385600000",
+        "symbol": "XLMUSDT",
+        "signal": 1,
+        "timeframe": "1d",
+        "start_ts": 1769385600000,
+        "end_ts": 1769472000000
     }
 ]
